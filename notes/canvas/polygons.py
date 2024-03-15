@@ -20,11 +20,28 @@ class Polygon:
 
         # hexagon vertices - 6 sides
         # self.vertices = [200, 50, 250, 150, 200, 250, 100, 250, 50, 150, 100, 50]
-        
+
         # octagon vertices - 8 sides
-        self.vertices = [200, 50, 250, 100, 250, 200, 200, 250, 100, 250, 50, 200, 50, 100, 100, 50]
+        self.vertices = [
+            200,
+            50,
+            250,
+            100,
+            250,
+            200,
+            200,
+            250,
+            100,
+            250,
+            50,
+            200,
+            50,
+            100,
+            100,
+            50,
+        ]
         self.canvas.create_polygon(self.vertices, fill="black", outline="gold")
-        myfont = tkfont.Font(family='Helvetica', size=24, weight='bold', slant='italic')
+        myfont = tkfont.Font(family="Helvetica", size=24, weight="bold", slant="italic")
         self.canvas.create_text(150, 150, text="Hello World", fill="gold", font=myfont)
 
         self.canvas.pack()
@@ -36,7 +53,7 @@ class Polygon:
 
 
 def main():
-    app = Polygon()
+    Polygon()
 
 
 # ****************************************************************************************************
@@ -45,8 +62,3 @@ if __name__ == "__main__":
     main()
 
 # ****************************************************************************************************
-"""
-
-
-
-"""

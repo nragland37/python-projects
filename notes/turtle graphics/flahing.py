@@ -11,7 +11,17 @@ artist.speed(0)  # Set the speed to the maximum
 artist.width(2)  # Set the width of the pen
 
 # Colors for our drawing
-colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange', 'cyan', 'magenta', 'white']
+colors = [
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "purple",
+    "orange",
+    "cyan",
+    "magenta",
+    "white",
+]
 
 
 def draw_pattern(radius, color1, color2):
@@ -49,6 +59,3 @@ draw_artwork()
 
 # Keep the window open
 turtle.mainloop()
-
-
-

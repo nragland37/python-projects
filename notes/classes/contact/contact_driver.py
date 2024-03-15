@@ -11,16 +11,17 @@ def load_contacts():
 
     return contacts
 
+
 def add_contact(contacts):
     name = input("Enter name: ")
     phone = input("Enter phone: ")
-    
+
     contact = Contact(name, phone)
     if name not in contacts:
         contacts[name] = contact
     else:
         print("Contact already exists")
-    
+
     return contacts
 
 
@@ -41,15 +42,15 @@ def main():
         myContact2.get_name(): myContact2,
         myContact3.get_name(): myContact3,
     }
-    
+
     print(all_contacts)
-    
+
     save_contacts(all_contacts)
     contacts = load_contacts()
-    
+
     add_contact(contacts)
     save_contacts(contacts)
-    
+
     for contact in contacts.values():
         print(contact)
 

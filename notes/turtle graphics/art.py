@@ -1,22 +1,22 @@
-# turtle graphics is a Python library for creating graphics 
+# turtle graphics is a Python library for creating graphics
 import turtle
 
-'''
-# show turtle window
-turtle.showturtle()
 
-# draw a line
-turtle.forward(200)
-turtle.right(90)
-turtle.forward(200)
-turtle.right(90)
-turtle.forward(200)
-turtle.right(90)
-turtle.forward(200)
+# # show turtle window
+# turtle.showturtle()
 
-# keep window open
-turtle.done()
-'''
+# # draw a line
+# turtle.forward(200)
+# turtle.right(90)
+# turtle.forward(200)
+# turtle.right(90)
+# turtle.forward(200)
+# turtle.right(90)
+# turtle.forward(200)
+
+# # keep window open
+# turtle.done()
+
 
 NUM_CIRCLES = 36  # number of circles to draw
 DEGREES = 10  # angle to turn
@@ -30,10 +30,10 @@ t2 = turtle.Turtle()
 t3 = turtle.Turtle()
 t4 = turtle.Turtle()
 t.speed(0)  # fastest speed
-t1.speed(0) 
-t2.speed(0)   
+t1.speed(0)
+t2.speed(0)
 t3.speed(0)
-t4.speed(0) 
+t4.speed(0)
 t1.up()
 t1.goto(300, 300)
 t2.up()
@@ -68,5 +68,5 @@ for count in range(NUM_CIRCLES):
     t2.left(DEGREES)
     t3.right(DEGREES)
     t4.left(DEGREES)
-    
+
 turtle.mainloop()  # keep window open

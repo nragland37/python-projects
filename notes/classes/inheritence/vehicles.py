@@ -38,9 +38,7 @@ class Car(Automobile):
 
     def __str__(self):
         return (
-            f"Make: {self._make}\n"
-            f"Price: {self._price}\n"
-            f"Doors: {self.__doors}\n"
+            f"Make: {self._make}\n" f"Price: {self._price}\n" f"Doors: {self.__doors}\n"
         )
 
 

@@ -12,7 +12,7 @@
 # >1 = buffering in bytes means it will write to the file when it reaches the specified number of bytes (recommended)
 
 # open a file and read it line by line
-'''
+"""
 with open ("data.txt", "r") as file:
     line = file.readline()
     
@@ -56,7 +56,7 @@ for line in sales_file:
 print(total)
 
 sales_file.close()
-'''
+"""
 
 # only print 2nd line in file with while loop
 sales_file = open("sales_file.txt", "r")
@@ -66,6 +66,6 @@ total = 0
 while line != "":
     total += int(line)
     line = sales_file.readline()
-    
+
 print(total)
 sales_file.close()
