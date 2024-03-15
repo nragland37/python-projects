@@ -61,11 +61,11 @@ def get_input(num1, num2, MIN_SUM, MAX_SUM):
 # ****************************************************************************************************
 
 
-def display_result(guess, sum):
-    if guess == sum:
+def display_result(guess, total):
+    if guess == total:
         print("\nCorrect answer - Good Work!")
     else:
-        print(f"\nIncorrect... The correct answer is: {sum}.")
+        print(f"\nIncorrect... The correct answer is: {total}.")
 
 
 # ****************************************************************************************************
@@ -78,9 +78,9 @@ def main():
 
     while True:
         num1, num2 = get_randNums(RAND_RANGE)
-        sum = get_sum(num1, num2)
+        total = get_sum(num1, num2)
         guess = get_input(num1, num2, MIN_SUM, MAX_SUM)
-        display_result(guess, sum)
+        display_result(guess, total)
 
         if get_choice() == "n":
             break

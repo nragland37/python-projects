@@ -1,6 +1,6 @@
 # ****************************************************************************************************
 #
-#       This program reads from a file containing World Series winners between 1903 and 2009 and 
+#       This program reads from a file containing World Series winners between 1903 and 2009 and
 #       creates lists of unique teams and their counts. It prompts the user with a menu for various
 #       operations on the lists.
 #
@@ -24,7 +24,9 @@ def search_team(teams_count, team_name):
     count = teams_count.count(team_name)
 
     if count:
-        print(f"\nThe {team_name} won the world series {count} times between 1903 and 2009.")
+        print(
+            f"\nThe {team_name} won the world series {count} times between 1903 and 2009."
+        )
     else:
         print(f"\nThe {team_name} never won the world series.")
 
@@ -79,14 +81,14 @@ if __name__ == "__main__":
 
 # ****************************************************************************************************
 
-#                       Menu                       
+#                       Menu
 # ==================================================
 # 1. Search a team
 # 2. Display team names
 # 3. Quit
 # Enter your choice: 2
 
-#    World Series Champions between 1903 and 2009   
+#    World Series Champions between 1903 and 2009
 # ==================================================
 #  1 : Anaheim Angels
 #  2 : Arizona Diamondbacks
@@ -117,7 +119,7 @@ if __name__ == "__main__":
 # 27 : Toronto Blue Jays
 # 28 : Washington Senators
 
-#                        Menu                       
+#                        Menu
 # ==================================================
 # 1. Search a team
 # 2. Display team names
@@ -128,7 +130,7 @@ if __name__ == "__main__":
 
 # The St. Louis Cardinals won the world series 10 times between 1903 and 2009.
 
-#                        Menu                       
+#                        Menu
 # ==================================================
 # 1. Search a team
 # 2. Display team names
@@ -139,7 +141,7 @@ if __name__ == "__main__":
 
 # The St. Louis Cardinals won the world series 10 times between 1903 and 2009.
 
-#                        Menu                       
+#                        Menu
 # ==================================================
 # 1. Search a team
 # 2. Display team names
@@ -150,7 +152,7 @@ if __name__ == "__main__":
 
 # The Dataframe Pandas never won the world series.
 
-#                        Menu                       
+#                        Menu
 # ==================================================
 # 1. Search a team
 # 2. Display team names

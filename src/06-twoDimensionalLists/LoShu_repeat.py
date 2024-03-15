@@ -8,17 +8,18 @@
 def getInput(square):
     print("Enter all values: ")
 
-    for i in range(len(square)):
-        print(f'\n{"Row " + str(i):^11}\n{"-" * 11}')
-        for j in range(len(square[i])):
+    for row_index, row in enumerate(square):
+        print(f'\n{"Row " + str(row_index):^11}\n{"-" * 11}')
+
+        for col_index in range(len(row)):
             success = False
 
             while not success:
                 try:
-                    value = int(input("enter: "))
+                    val = int(input("enter: "))
 
-                    if 1 <= value <= 9:
-                        square[i][j] = value
+                    if 1 <= val <= 9:
+                        square[row_index][col_index] = val
                         success = True
                     else:
                         raise ValueError("Value must be between 1 and 9.")
@@ -26,6 +27,7 @@ def getInput(square):
                     print(f"\nError: {e}\n")
 
     return square
+
 
 
 # ****************************************************************************************************

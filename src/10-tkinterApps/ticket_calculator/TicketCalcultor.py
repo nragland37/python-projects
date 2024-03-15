@@ -94,7 +94,7 @@ class TicketCalculatorGUI:
 
 
 def main():
-    app = TicketCalculatorGUI()
+    TicketCalculatorGUI()
 
 
 # ****************************************************************************************************

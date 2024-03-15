@@ -13,10 +13,10 @@
 def get_input(square):
     print("Enter all values: ")
 
-    for row in range(len(square)):
-        print(f'\n{"Row " + str(row):^11}\n{"-" * 11}')
+    for row_index, row in enumerate(square):
+        print(f'\n{"Row " + str(row_index):^11}\n{"-" * 11}')
 
-        for col in range(len(square[row])):
+        for col_index in range(len(row)):
             success = False
 
             while not success:
@@ -24,13 +24,8 @@ def get_input(square):
                     val = int(input("enter: "))
 
                     if 1 <= val <= 9:
-                        square[row][col] = val
+                        square[row_index][col_index] = val
                         success = True
-                        # if val not in square[row]:
-                        #     square[row][col] = val
-                        #     success = True
-                        # else:
-                        #     raise ValueError('Value already exists in row.')
                     else:
                         raise ValueError("Value must be between 1 and 9.")
                 except ValueError as e:

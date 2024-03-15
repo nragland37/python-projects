@@ -132,7 +132,7 @@ def add_pop(population_list, start_year, end_year):
     year_add = int(input("Enter year: "))
 
     if 1776 <= year_add <= 2023:
-        pop_add = int(input(f"Enter population(in thousands): "))
+        pop_add = int(input("Enter population(in thousands): "))
 
         if year_add < start_year:
             index = (start_year - year_add) - 1

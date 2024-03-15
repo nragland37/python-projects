@@ -2,7 +2,7 @@
 #
 #       This program updates the champions.py program by not using a list to store the World Series
 #       winners. Instead, it passes the file object to functions directly and resets the file pointer
-#       to the beginning of the file after each menu choice. This demonstrates how to use file 
+#       to the beginning of the file after each menu choice. This demonstrates how to use file
 #       objects to read and write data without using lists.
 #
 #       Other files required:
@@ -14,8 +14,8 @@
 def searchTeam(teams, team_name):
     try:
         wins = 0
-        for line in teams: 
-            if line.strip() == team_name: 
+        for line in teams:
+            if line.strip() == team_name:
                 wins += 1
 
         if wins == 0:
@@ -23,8 +23,8 @@ def searchTeam(teams, team_name):
         else:
             print(f"The {team_name} won {wins} times between 1903 and 2008.")
 
-    except:
-        print("An error occurred.")
+    except Exception as e:
+        print("An error occurred: ", e)
 
 
 # ****************************************************************************************************
@@ -46,8 +46,8 @@ def display(teams):
             year += 1
 
         print()
-    except:
-        print("An error occurred.")
+    except Exception as e:
+        print("An error occurred: ", e)
 
 
 # ****************************************************************************************************
@@ -63,8 +63,8 @@ def menu(teams):
             choice = int(input("\nEnter the number of your choice: "))
         except ValueError:
             print("Please enter an integer.\n")
-        except: 
-            print("An error occurred.\n")
+        except Exception as e:
+            print("An error occurred: ", e)
         else:
             if choice == 1:
                 team_name = input("\nEnter the MLB team name: ").title()
@@ -97,14 +97,14 @@ if __name__ == "__main__":
 
 # ****************************************************************************************************
 
-#                       Menu                       
+#                       Menu
 # ==================================================
 # 1. Search a team
 # 2. Display team names
 # 3. Quit
 # Enter your choice: 2
 
-#    World Series Champions between 1903 and 2009   
+#    World Series Champions between 1903 and 2009
 # ==================================================
 #  1 : Anaheim Angels
 #  2 : Arizona Diamondbacks
@@ -135,7 +135,7 @@ if __name__ == "__main__":
 # 27 : Toronto Blue Jays
 # 28 : Washington Senators
 
-#                        Menu                       
+#                        Menu
 # ==================================================
 # 1. Search a team
 # 2. Display team names
@@ -146,7 +146,7 @@ if __name__ == "__main__":
 
 # The St. Louis Cardinals won the world series 10 times between 1903 and 2009.
 
-#                        Menu                       
+#                        Menu
 # ==================================================
 # 1. Search a team
 # 2. Display team names
@@ -157,7 +157,7 @@ if __name__ == "__main__":
 
 # The St. Louis Cardinals won the world series 10 times between 1903 and 2009.
 
-#                        Menu                       
+#                        Menu
 # ==================================================
 # 1. Search a team
 # 2. Display team names
@@ -168,7 +168,7 @@ if __name__ == "__main__":
 
 # The Dataframe Pandas never won the world series.
 
-#                        Menu                       
+#                        Menu
 # ==================================================
 # 1. Search a team
 # 2. Display team names
