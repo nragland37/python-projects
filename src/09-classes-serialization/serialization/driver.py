@@ -1,7 +1,7 @@
 # ****************************************************************************************************
 #
 #       This program utilizes classes and serialization (converts the object into a binary stream)
-#       to create a menu driven program that allows the user to perform various operations on a 
+#       to create a menu driven program that allows the user to perform various operations on a
 #       dictionary of Employee objects.
 #
 #       Other files required:
@@ -25,20 +25,20 @@ FILENAME = "employees.dat"
 def load_employees():
     try:
         with open(FILENAME, "rb") as f:
-            employee_dict = pickle.load(f) 
-            
+            employee_dict = pickle.load(f)
+
         # predefined_employees = [
         #     Employee("Susan Meyers", 47899, "Accounting", "Vice President"),
         #     Employee("Mark Jones", 39119, "IT", "Programmer"),
         #     Employee("Joy Rogers", 81774, "Manufacturing", "Engineer")
         # ]
-        
+
         # for employee in predefined_employees:
         #     emp = employee.get_id_number()
-            
+
         #     if emp not in employee_dict:
         #         employee_dict[emp] = employee
-                
+
     except IOError:
         employee_dict = {}
     except Exception as e:
@@ -51,13 +51,7 @@ def load_employees():
 
 
 def get_user_choice(employee_dict):
-    MENU = {
-        1: look_up,
-        2: add,
-        3: change,
-        4: delete,
-        5: display_all
-    }
+    MENU = {1: look_up, 2: add, 3: change, 4: delete, 5: display_all}
     success = True
 
     while success:
@@ -93,11 +87,11 @@ def get_user_choice(employee_dict):
 
 def look_up(employee_dict):
     success = True
-    
+
     while success:
         try:
             number = int(input("Enter an employee ID number: "))
-            
+
             if employee_dict.get(number, False):
                 print(f'\n{"Name":20}{"ID":20}{"Department":20}{"Job Title":20}')
                 print(f'{"-" * 80}')
@@ -105,7 +99,7 @@ def look_up(employee_dict):
                 success = False
             else:
                 raise ValueError("The specified ID number was not found.")
-            
+
         except ValueError as ve:
             print(f"\nError: {ve}\n")
         except Exception as e:
@@ -117,7 +111,7 @@ def look_up(employee_dict):
 
 def add(employee_dict):
     success = True
-    
+
     while success:
         try:
             name = input("Enter employee name: ").title()
@@ -132,7 +126,7 @@ def add(employee_dict):
                 success = False
             else:
                 raise ValueError("The specified ID number was not found.")
-                
+
         except ValueError as ve:
             print(f"\nError: {ve}\n")
         except Exception as e:
@@ -144,7 +138,7 @@ def add(employee_dict):
 
 def change(employee_dict):
     success = True
-    
+
     while success:
         try:
             number = int(input("Enter an ID number: "))
@@ -160,7 +154,7 @@ def change(employee_dict):
                 success = False
             else:
                 raise ValueError("The specified ID number was not found.")
-                
+
         except ValueError as ve:
             print(f"\nError: {ve}\n")
         except Exception as e:
@@ -172,7 +166,7 @@ def change(employee_dict):
 
 def delete(employee_dict):
     success = True
-    
+
     while success:
         try:
             number = int(input("Enter an employee ID number: "))
@@ -183,7 +177,7 @@ def delete(employee_dict):
                 success = False
             else:
                 raise ValueError("The specified ID number was not found.")
-                
+
         except ValueError as ve:
             print(f"\nError: {ve}\n")
         except Exception as e:
@@ -196,7 +190,7 @@ def delete(employee_dict):
 def display_all(employee_dict):
     print(f'\n{"Name":20}{"ID":20}{"Department":20}{"Job Title":20}')
     print(f'{"-" * 80}')
-    
+
     for employee in employee_dict.values():
         print(employee)
 
@@ -208,10 +202,10 @@ def save_employees(employee_dict):
     try:
         with open(FILENAME, "wb") as f:
             pickle.dump(employee_dict, f)
-            
+
         print("The data has been saved.")
-        
-    except IOError: 
+
+    except IOError:
         print("\nError: Unable to save the data.")
     except Exception as e:
         print(f"\nError: {e}")
@@ -231,105 +225,104 @@ if __name__ == "__main__":
     main()
 
 # ****************************************************************************************************
-"""
 
-               Menu                
------------------------------------
-1. Look up an employee
-2. Add a new employee
-3. Change an existing employee
-4. Delete an employee
-5. Display all employees
-6. Quit the program
+#                Menu
+# -----------------------------------
+# 1. Look up an employee
+# 2. Add a new employee
+# 3. Change an existing employee
+# 4. Delete an employee
+# 5. Display all employees
+# 6. Quit the program
 
-Enter your choice: 1
-Enter an employee ID number: 47899
+# Enter your choice: 1
+# Enter an employee ID number: 47899
 
-Name                ID                  Department          Job Title           
---------------------------------------------------------------------------------
-Susan Meyers        47899               Accounting          Vice President      
-
-
-               Menu                
------------------------------------
-1. Look up an employee
-2. Add a new employee
-3. Change an existing employee
-4. Delete an employee
-5. Display all employees
-6. Quit the program
-
-Enter your choice: 2
-Enter employee name: John Doe
-Enter employee ID number: 15632
-Enter employee department: Management 
-Enter employee title: Manager
-
-The new employee has been added.
+# Name                ID                  Department          Job Title
+# --------------------------------------------------------------------------------
+# Susan Meyers        47899               Accounting          Vice President
 
 
-               Menu                
------------------------------------
-1. Look up an employee
-2. Add a new employee
-3. Change an existing employee
-4. Delete an employee
-5. Display all employees
-6. Quit the program
+#                Menu
+# -----------------------------------
+# 1. Look up an employee
+# 2. Add a new employee
+# 3. Change an existing employee
+# 4. Delete an employee
+# 5. Display all employees
+# 6. Quit the program
 
-Enter your choice: 3
-Enter an ID number: 47899
-Enter the new name: Buzz Lightyear
-Enter the new department: Space 
-Enter the new job title: Space Cowboy
-Information updated.
+# Enter your choice: 2
+# Enter employee name: John Doe
+# Enter employee ID number: 15632
+# Enter employee department: Management
+# Enter employee title: Manager
 
-
-               Menu                
------------------------------------
-1. Look up an employee
-2. Add a new employee
-3. Change an existing employee
-4. Delete an employee
-5. Display all employees
-6. Quit the program
-
-Enter your choice: 5
-
-Name                ID                  Department          Job Title           
---------------------------------------------------------------------------------
-Mark Jones          39119               IT                  Programmer          
-Joy Rogers          81774               Manufacturing       Engineer            
-Buzz Lightyear      47899               Space               Space Cowboy        
-John Doe            15632               Management          Manager             
+# The new employee has been added.
 
 
-               Menu                
------------------------------------
-1. Look up an employee
-2. Add a new employee
-3. Change an existing employee
-4. Delete an employee
-5. Display all employees
-6. Quit the program
+#                Menu
+# -----------------------------------
+# 1. Look up an employee
+# 2. Add a new employee
+# 3. Change an existing employee
+# 4. Delete an employee
+# 5. Display all employees
+# 6. Quit the program
 
-Enter your choice: 4
-Enter an employee ID number: 47899
-Entry deleted.
+# Enter your choice: 3
+# Enter an ID number: 47899
+# Enter the new name: Buzz Lightyear
+# Enter the new department: Space
+# Enter the new job title: Space Cowboy
+# Information updated.
 
 
-               Menu                
------------------------------------
-1. Look up an employee
-2. Add a new employee
-3. Change an existing employee
-4. Delete an employee
-5. Display all employees
-6. Quit the program
+#                Menu
+# -----------------------------------
+# 1. Look up an employee
+# 2. Add a new employee
+# 3. Change an existing employee
+# 4. Delete an employee
+# 5. Display all employees
+# 6. Quit the program
 
-Enter your choice: 6
-The data has been saved.
+# Enter your choice: 5
 
-Goodbye!
+# Name                ID                  Department          Job Title
+# --------------------------------------------------------------------------------
+# Mark Jones          39119               IT                  Programmer
+# Joy Rogers          81774               Manufacturing       Engineer
+# Buzz Lightyear      47899               Space               Space Cowboy
+# John Doe            15632               Management          Manager
 
-"""
+
+#                Menu
+# -----------------------------------
+# 1. Look up an employee
+# 2. Add a new employee
+# 3. Change an existing employee
+# 4. Delete an employee
+# 5. Display all employees
+# 6. Quit the program
+
+# Enter your choice: 4
+# Enter an employee ID number: 47899
+# Entry deleted.
+
+
+#                Menu
+# -----------------------------------
+# 1. Look up an employee
+# 2. Add a new employee
+# 3. Change an existing employee
+# 4. Delete an employee
+# 5. Display all employees
+# 6. Quit the program
+
+# Enter your choice: 6
+# The data has been saved.
+
+# Goodbye!
+
+# ****************************************************************************************************

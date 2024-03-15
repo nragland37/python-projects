@@ -135,7 +135,7 @@ def add_pop(population_list, start_year, end_year):
         pop_add = int(input(f"Enter population(in thousands): "))
 
         if year_add < start_year:
-            index = (start_year - year_add) - 1 
+            index = (start_year - year_add) - 1
             while index > 0:
                 population_list.insert(0, 0)
                 index -= 1
@@ -166,9 +166,10 @@ def display_populations(population_list):
     print("\nPopulation List:")
     for year, pop in enumerate(population_list, 1950):
         print(f"{year}: {pop * 1000:,.0f}")
-        
-        
+
+
 # ****************************************************************************************************
+
 
 def menu(population_list):
     ch = 0
@@ -264,384 +265,383 @@ if __name__ == "__main__":
     main()
 
 # ****************************************************************************************************
-"""
 
-[151868, 153982, 156393, 158956, 161884, 165069, 168088, 171187, 174149, 177135]
-[179979, 182992, 185771, 188483, 191141, 193526, 195576, 197457, 199399, 201385]
-[203984, 206827, 209284, 211357, 213342, 215465, 217563, 219760, 222095, 224567]
-[227225, 229466, 231664, 233792, 235825, 237924, 240133, 242289, 244499, 246819]
-[249623]
+# [151868, 153982, 156393, 158956, 161884, 165069, 168088, 171187, 174149, 177135]
+# [179979, 182992, 185771, 188483, 191141, 193526, 195576, 197457, 199399, 201385]
+# [203984, 206827, 209284, 211357, 213342, 215465, 217563, 219760, 222095, 224567]
+# [227225, 229466, 231664, 233792, 235825, 237924, 240133, 242289, 244499, 246819]
+# [249623]
 
-                 Population Menu                  
-==================================================
- 1. Average Population
- 2. Greatest Population Increase
- 3. Smallest Population Increase
- 4. Bar Chart
- 5. Line Graph
- 6. Ascending Population Change
- 7. Descending Population Change
- 8. Search Population
- 9. Remove Population
-10. Add Population
-11. Display Populations
-12. Quit
-Enter your choice: 11
+#                  Population Menu
+# ==================================================
+#  1. Average Population
+#  2. Greatest Population Increase
+#  3. Smallest Population Increase
+#  4. Bar Chart
+#  5. Line Graph
+#  6. Ascending Population Change
+#  7. Descending Population Change
+#  8. Search Population
+#  9. Remove Population
+# 10. Add Population
+# 11. Display Populations
+# 12. Quit
+# Enter your choice: 11
 
-Population List:
-1950: 151,868,000
-1951: 153,982,000
-1952: 156,393,000
-1953: 158,956,000
-1954: 161,884,000
-1955: 165,069,000
-1956: 168,088,000
-1957: 171,187,000
-1958: 174,149,000
-1959: 177,135,000
-1960: 179,979,000
-1961: 182,992,000
-1962: 185,771,000
-1963: 188,483,000
-1964: 191,141,000
-1965: 193,526,000
-1966: 195,576,000
-1967: 197,457,000
-1968: 199,399,000
-1969: 201,385,000
-1970: 203,984,000
-1971: 206,827,000
-1972: 209,284,000
-1973: 211,357,000
-1974: 213,342,000
-1975: 215,465,000
-1976: 217,563,000
-1977: 219,760,000
-1978: 222,095,000
-1979: 224,567,000
-1980: 227,225,000
-1981: 229,466,000
-1982: 231,664,000
-1983: 233,792,000
-1984: 235,825,000
-1985: 237,924,000
-1986: 240,133,000
-1987: 242,289,000
-1988: 244,499,000
-1989: 246,819,000
-1990: 249,623,000
+# Population List:
+# 1950: 151,868,000
+# 1951: 153,982,000
+# 1952: 156,393,000
+# 1953: 158,956,000
+# 1954: 161,884,000
+# 1955: 165,069,000
+# 1956: 168,088,000
+# 1957: 171,187,000
+# 1958: 174,149,000
+# 1959: 177,135,000
+# 1960: 179,979,000
+# 1961: 182,992,000
+# 1962: 185,771,000
+# 1963: 188,483,000
+# 1964: 191,141,000
+# 1965: 193,526,000
+# 1966: 195,576,000
+# 1967: 197,457,000
+# 1968: 199,399,000
+# 1969: 201,385,000
+# 1970: 203,984,000
+# 1971: 206,827,000
+# 1972: 209,284,000
+# 1973: 211,357,000
+# 1974: 213,342,000
+# 1975: 215,465,000
+# 1976: 217,563,000
+# 1977: 219,760,000
+# 1978: 222,095,000
+# 1979: 224,567,000
+# 1980: 227,225,000
+# 1981: 229,466,000
+# 1982: 231,664,000
+# 1983: 233,792,000
+# 1984: 235,825,000
+# 1985: 237,924,000
+# 1986: 240,133,000
+# 1987: 242,289,000
+# 1988: 244,499,000
+# 1989: 246,819,000
+# 1990: 249,623,000
 
-                 Population Menu                  
-==================================================
- 1. Average Population
- 2. Greatest Population Increase
- 3. Smallest Population Increase
- 4. Bar Chart
- 5. Line Graph
- 6. Ascending Population Change
- 7. Descending Population Change
- 8. Search Population
- 9. Remove Population
-10. Add Population
-11. Display Populations
-12. Quit
-Enter your choice: 10
-Enter year: 1995
-Enter population(in thousands): 250000
+#                  Population Menu
+# ==================================================
+#  1. Average Population
+#  2. Greatest Population Increase
+#  3. Smallest Population Increase
+#  4. Bar Chart
+#  5. Line Graph
+#  6. Ascending Population Change
+#  7. Descending Population Change
+#  8. Search Population
+#  9. Remove Population
+# 10. Add Population
+# 11. Display Populations
+# 12. Quit
+# Enter your choice: 10
+# Enter year: 1995
+# Enter population(in thousands): 250000
 
-250000 added for 1995.
+# 250000 added for 1995.
 
-                 Population Menu                  
-==================================================
- 1. Average Population
- 2. Greatest Population Increase
- 3. Smallest Population Increase
- 4. Bar Chart
- 5. Line Graph
- 6. Ascending Population Change
- 7. Descending Population Change
- 8. Search Population
- 9. Remove Population
-10. Add Population
-11. Display Populations
-12. Quit
-Enter your choice: 11
+#                  Population Menu
+# ==================================================
+#  1. Average Population
+#  2. Greatest Population Increase
+#  3. Smallest Population Increase
+#  4. Bar Chart
+#  5. Line Graph
+#  6. Ascending Population Change
+#  7. Descending Population Change
+#  8. Search Population
+#  9. Remove Population
+# 10. Add Population
+# 11. Display Populations
+# 12. Quit
+# Enter your choice: 11
 
-Population List:
-1950: 151,868,000
-1951: 153,982,000
-1952: 156,393,000
-1953: 158,956,000
-1954: 161,884,000
-1955: 165,069,000
-1956: 168,088,000
-1957: 171,187,000
-1958: 174,149,000
-1959: 177,135,000
-1960: 179,979,000
-1961: 182,992,000
-1962: 185,771,000
-1963: 188,483,000
-1964: 191,141,000
-1965: 193,526,000
-1966: 195,576,000
-1967: 197,457,000
-1968: 199,399,000
-1969: 201,385,000
-1970: 203,984,000
-1971: 206,827,000
-1972: 209,284,000
-1973: 211,357,000
-1974: 213,342,000
-1975: 215,465,000
-1976: 217,563,000
-1977: 219,760,000
-1978: 222,095,000
-1979: 224,567,000
-1980: 227,225,000
-1981: 229,466,000
-1982: 231,664,000
-1983: 233,792,000
-1984: 235,825,000
-1985: 237,924,000
-1986: 240,133,000
-1987: 242,289,000
-1988: 244,499,000
-1989: 246,819,000
-1990: 249,623,000
-1991: 0
-1992: 0
-1993: 0
-1994: 0
-1995: 250,000,000
+# Population List:
+# 1950: 151,868,000
+# 1951: 153,982,000
+# 1952: 156,393,000
+# 1953: 158,956,000
+# 1954: 161,884,000
+# 1955: 165,069,000
+# 1956: 168,088,000
+# 1957: 171,187,000
+# 1958: 174,149,000
+# 1959: 177,135,000
+# 1960: 179,979,000
+# 1961: 182,992,000
+# 1962: 185,771,000
+# 1963: 188,483,000
+# 1964: 191,141,000
+# 1965: 193,526,000
+# 1966: 195,576,000
+# 1967: 197,457,000
+# 1968: 199,399,000
+# 1969: 201,385,000
+# 1970: 203,984,000
+# 1971: 206,827,000
+# 1972: 209,284,000
+# 1973: 211,357,000
+# 1974: 213,342,000
+# 1975: 215,465,000
+# 1976: 217,563,000
+# 1977: 219,760,000
+# 1978: 222,095,000
+# 1979: 224,567,000
+# 1980: 227,225,000
+# 1981: 229,466,000
+# 1982: 231,664,000
+# 1983: 233,792,000
+# 1984: 235,825,000
+# 1985: 237,924,000
+# 1986: 240,133,000
+# 1987: 242,289,000
+# 1988: 244,499,000
+# 1989: 246,819,000
+# 1990: 249,623,000
+# 1991: 0
+# 1992: 0
+# 1993: 0
+# 1994: 0
+# 1995: 250,000,000
 
-                 Population Menu                  
-==================================================
- 1. Average Population
- 2. Greatest Population Increase
- 3. Smallest Population Increase
- 4. Bar Chart
- 5. Line Graph
- 6. Ascending Population Change
- 7. Descending Population Change
- 8. Search Population
- 9. Remove Population
-10. Add Population
-11. Display Populations
-12. Quit
-Enter your choice: 9
-Enter year: 1995
+#                  Population Menu
+# ==================================================
+#  1. Average Population
+#  2. Greatest Population Increase
+#  3. Smallest Population Increase
+#  4. Bar Chart
+#  5. Line Graph
+#  6. Ascending Population Change
+#  7. Descending Population Change
+#  8. Search Population
+#  9. Remove Population
+# 10. Add Population
+# 11. Display Populations
+# 12. Quit
+# Enter your choice: 9
+# Enter year: 1995
 
-Population for 1995 removed.
+# Population for 1995 removed.
 
-                 Population Menu                  
-==================================================
- 1. Average Population
- 2. Greatest Population Increase
- 3. Smallest Population Increase
- 4. Bar Chart
- 5. Line Graph
- 6. Ascending Population Change
- 7. Descending Population Change
- 8. Search Population
- 9. Remove Population
-10. Add Population
-11. Display Populations
-12. Quit
-Enter your choice: 11
+#                  Population Menu
+# ==================================================
+#  1. Average Population
+#  2. Greatest Population Increase
+#  3. Smallest Population Increase
+#  4. Bar Chart
+#  5. Line Graph
+#  6. Ascending Population Change
+#  7. Descending Population Change
+#  8. Search Population
+#  9. Remove Population
+# 10. Add Population
+# 11. Display Populations
+# 12. Quit
+# Enter your choice: 11
 
-Population List:
-1950: 151,868,000
-1951: 153,982,000
-1952: 156,393,000
-1953: 158,956,000
-1954: 161,884,000
-1955: 165,069,000
-1956: 168,088,000
-1957: 171,187,000
-1958: 174,149,000
-1959: 177,135,000
-1960: 179,979,000
-1961: 182,992,000
-1962: 185,771,000
-1963: 188,483,000
-1964: 191,141,000
-1965: 193,526,000
-1966: 195,576,000
-1967: 197,457,000
-1968: 199,399,000
-1969: 201,385,000
-1970: 203,984,000
-1971: 206,827,000
-1972: 209,284,000
-1973: 211,357,000
-1974: 213,342,000
-1975: 215,465,000
-1976: 217,563,000
-1977: 219,760,000
-1978: 222,095,000
-1979: 224,567,000
-1980: 227,225,000
-1981: 229,466,000
-1982: 231,664,000
-1983: 233,792,000
-1984: 235,825,000
-1985: 237,924,000
-1986: 240,133,000
-1987: 242,289,000
-1988: 244,499,000
-1989: 246,819,000
-1990: 249,623,000
+# Population List:
+# 1950: 151,868,000
+# 1951: 153,982,000
+# 1952: 156,393,000
+# 1953: 158,956,000
+# 1954: 161,884,000
+# 1955: 165,069,000
+# 1956: 168,088,000
+# 1957: 171,187,000
+# 1958: 174,149,000
+# 1959: 177,135,000
+# 1960: 179,979,000
+# 1961: 182,992,000
+# 1962: 185,771,000
+# 1963: 188,483,000
+# 1964: 191,141,000
+# 1965: 193,526,000
+# 1966: 195,576,000
+# 1967: 197,457,000
+# 1968: 199,399,000
+# 1969: 201,385,000
+# 1970: 203,984,000
+# 1971: 206,827,000
+# 1972: 209,284,000
+# 1973: 211,357,000
+# 1974: 213,342,000
+# 1975: 215,465,000
+# 1976: 217,563,000
+# 1977: 219,760,000
+# 1978: 222,095,000
+# 1979: 224,567,000
+# 1980: 227,225,000
+# 1981: 229,466,000
+# 1982: 231,664,000
+# 1983: 233,792,000
+# 1984: 235,825,000
+# 1985: 237,924,000
+# 1986: 240,133,000
+# 1987: 242,289,000
+# 1988: 244,499,000
+# 1989: 246,819,000
+# 1990: 249,623,000
 
-                 Population Menu                  
-==================================================
- 1. Average Population
- 2. Greatest Population Increase
- 3. Smallest Population Increase
- 4. Bar Chart
- 5. Line Graph
- 6. Ascending Population Change
- 7. Descending Population Change
- 8. Search Population
- 9. Remove Population
-10. Add Population
-11. Display Populations
-12. Quit
-Enter your choice: 8
-Enter population(in thousands): 249623
+#                  Population Menu
+# ==================================================
+#  1. Average Population
+#  2. Greatest Population Increase
+#  3. Smallest Population Increase
+#  4. Bar Chart
+#  5. Line Graph
+#  6. Ascending Population Change
+#  7. Descending Population Change
+#  8. Search Population
+#  9. Remove Population
+# 10. Add Population
+# 11. Display Populations
+# 12. Quit
+# Enter your choice: 8
+# Enter population(in thousands): 249623
 
-249623 found!
+# 249623 found!
 
-                 Population Menu                  
-==================================================
- 1. Average Population
- 2. Greatest Population Increase
- 3. Smallest Population Increase
- 4. Bar Chart
- 5. Line Graph
- 6. Ascending Population Change
- 7. Descending Population Change
- 8. Search Population
- 9. Remove Population
-10. Add Population
-11. Display Populations
-12. Quit
-Enter your choice: 7
+#                  Population Menu
+# ==================================================
+#  1. Average Population
+#  2. Greatest Population Increase
+#  3. Smallest Population Increase
+#  4. Bar Chart
+#  5. Line Graph
+#  6. Ascending Population Change
+#  7. Descending Population Change
+#  8. Search Population
+#  9. Remove Population
+# 10. Add Population
+# 11. Display Populations
+# 12. Quit
+# Enter your choice: 7
 
-Sorted in Descending Order:
+# Sorted in Descending Order:
 
-[3185, 3099, 3019, 3013, 2986, 2962, 2928, 2844, 2843, 2804]
-[2779, 2712, 2658, 2658, 2599, 2563, 2472, 2457, 2411, 2385]
-[2335, 2320, 2241, 2210, 2209, 2198, 2197, 2156, 2128, 2123]
-[2114, 2099, 2098, 2073, 2050, 2033, 1986, 1985, 1942, 1881]
+# [3185, 3099, 3019, 3013, 2986, 2962, 2928, 2844, 2843, 2804]
+# [2779, 2712, 2658, 2658, 2599, 2563, 2472, 2457, 2411, 2385]
+# [2335, 2320, 2241, 2210, 2209, 2198, 2197, 2156, 2128, 2123]
+# [2114, 2099, 2098, 2073, 2050, 2033, 1986, 1985, 1942, 1881]
 
-                 Population Menu                  
-==================================================
- 1. Average Population
- 2. Greatest Population Increase
- 3. Smallest Population Increase
- 4. Bar Chart
- 5. Line Graph
- 6. Ascending Population Change
- 7. Descending Population Change
- 8. Search Population
- 9. Remove Population
-10. Add Population
-11. Display Populations
-12. Quit
-Enter your choice: 6
+#                  Population Menu
+# ==================================================
+#  1. Average Population
+#  2. Greatest Population Increase
+#  3. Smallest Population Increase
+#  4. Bar Chart
+#  5. Line Graph
+#  6. Ascending Population Change
+#  7. Descending Population Change
+#  8. Search Population
+#  9. Remove Population
+# 10. Add Population
+# 11. Display Populations
+# 12. Quit
+# Enter your choice: 6
 
-Sorted in Ascending Order:
+# Sorted in Ascending Order:
 
-[1881, 1942, 1985, 1986, 2033, 2050, 2073, 2098, 2099, 2114]
-[2123, 2128, 2156, 2197, 2198, 2209, 2210, 2241, 2320, 2335]
-[2385, 2411, 2457, 2472, 2563, 2599, 2658, 2658, 2712, 2779]
-[2804, 2843, 2844, 2928, 2962, 2986, 3013, 3019, 3099, 3185]
+# [1881, 1942, 1985, 1986, 2033, 2050, 2073, 2098, 2099, 2114]
+# [2123, 2128, 2156, 2197, 2198, 2209, 2210, 2241, 2320, 2335]
+# [2385, 2411, 2457, 2472, 2563, 2599, 2658, 2658, 2712, 2779]
+# [2804, 2843, 2844, 2928, 2962, 2986, 3013, 3019, 3099, 3185]
 
-                 Population Menu                  
-==================================================
- 1. Average Population
- 2. Greatest Population Increase
- 3. Smallest Population Increase
- 4. Bar Chart
- 5. Line Graph
- 6. Ascending Population Change
- 7. Descending Population Change
- 8. Search Population
- 9. Remove Population
-10. Add Population
-11. Display Populations
-12. Quit
-Enter your choice: 5
+#                  Population Menu
+# ==================================================
+#  1. Average Population
+#  2. Greatest Population Increase
+#  3. Smallest Population Increase
+#  4. Bar Chart
+#  5. Line Graph
+#  6. Ascending Population Change
+#  7. Descending Population Change
+#  8. Search Population
+#  9. Remove Population
+# 10. Add Population
+# 11. Display Populations
+# 12. Quit
+# Enter your choice: 5
 
-                 Population Menu                  
-==================================================
- 1. Average Population
- 2. Greatest Population Increase
- 3. Smallest Population Increase
- 4. Bar Chart
- 5. Line Graph
- 6. Ascending Population Change
- 7. Descending Population Change
- 8. Search Population
- 9. Remove Population
-10. Add Population
-11. Display Populations
-12. Quit
-Enter your choice: 4
+#                  Population Menu
+# ==================================================
+#  1. Average Population
+#  2. Greatest Population Increase
+#  3. Smallest Population Increase
+#  4. Bar Chart
+#  5. Line Graph
+#  6. Ascending Population Change
+#  7. Descending Population Change
+#  8. Search Population
+#  9. Remove Population
+# 10. Add Population
+# 11. Display Populations
+# 12. Quit
+# Enter your choice: 4
 
-                 Population Menu                  
-==================================================
- 1. Average Population
- 2. Greatest Population Increase
- 3. Smallest Population Increase
- 4. Bar Chart
- 5. Line Graph
- 6. Ascending Population Change
- 7. Descending Population Change
- 8. Search Population
- 9. Remove Population
-10. Add Population
-11. Display Populations
-12. Quit
-Enter your choice: 2
+#                  Population Menu
+# ==================================================
+#  1. Average Population
+#  2. Greatest Population Increase
+#  3. Smallest Population Increase
+#  4. Bar Chart
+#  5. Line Graph
+#  6. Ascending Population Change
+#  7. Descending Population Change
+#  8. Search Population
+#  9. Remove Population
+# 10. Add Population
+# 11. Display Populations
+# 12. Quit
+# Enter your choice: 2
 
-Year with Greatest Increase: 1954
+# Year with Greatest Increase: 1954
 
-                 Population Menu                  
-==================================================
- 1. Average Population
- 2. Greatest Population Increase
- 3. Smallest Population Increase
- 4. Bar Chart
- 5. Line Graph
- 6. Ascending Population Change
- 7. Descending Population Change
- 8. Search Population
- 9. Remove Population
-10. Add Population
-11. Display Populations
-12. Quit
-Enter your choice: 1
+#                  Population Menu
+# ==================================================
+#  1. Average Population
+#  2. Greatest Population Increase
+#  3. Smallest Population Increase
+#  4. Bar Chart
+#  5. Line Graph
+#  6. Ascending Population Change
+#  7. Descending Population Change
+#  8. Search Population
+#  9. Remove Population
+# 10. Add Population
+# 11. Display Populations
+# 12. Quit
+# Enter your choice: 1
 
-Average Population: 202,876,171
+# Average Population: 202,876,171
 
-                 Population Menu                  
-==================================================
- 1. Average Population
- 2. Greatest Population Increase
- 3. Smallest Population Increase
- 4. Bar Chart
- 5. Line Graph
- 6. Ascending Population Change
- 7. Descending Population Change
- 8. Search Population
- 9. Remove Population
-10. Add Population
-11. Display Populations
-12. Quit
-Enter your choice: 12
+#                  Population Menu
+# ==================================================
+#  1. Average Population
+#  2. Greatest Population Increase
+#  3. Smallest Population Increase
+#  4. Bar Chart
+#  5. Line Graph
+#  6. Ascending Population Change
+#  7. Descending Population Change
+#  8. Search Population
+#  9. Remove Population
+# 10. Add Population
+# 11. Display Populations
+# 12. Quit
+# Enter your choice: 12
 
-Goodbye!
+# Goodbye!
 
-"""
+# ****************************************************************************************************

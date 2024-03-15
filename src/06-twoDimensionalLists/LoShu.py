@@ -130,64 +130,63 @@ if __name__ == "__main__":
     main()
 
 # ****************************************************************************************************
-"""
 
-Enter all values: 
+# Enter all values:
 
-   Row 0   
------------
-enter: 4
-enter: 9
-enter: 2
+#    Row 0
+# -----------
+# enter: 4
+# enter: 9
+# enter: 2
 
-   Row 1   
------------
-enter: 3
-enter: 5
-enter: 7
+#    Row 1
+# -----------
+# enter: 3
+# enter: 5
+# enter: 7
 
-   Row 2   
------------
-enter: 8
-enter: 1
-enter: 6
+#    Row 2
+# -----------
+# enter: 8
+# enter: 1
+# enter: 6
 
-  Square:  
------------
-4    9    2    
-3    5    7    
-8    1    6    
+#   Square:
+# -----------
+# 4    9    2
+# 3    5    7
+# 8    1    6
 
-This is a Lo Shu Magic Square.
+# This is a Lo Shu Magic Square.
 
-****************************************************************************************************
+# ****************************************************************************************************
 
-Enter all values: 
+# Enter all values:
 
-   Row 0   
------------
-enter: 1
-enter: 2
-enter: 3
+#    Row 0
+# -----------
+# enter: 1
+# enter: 2
+# enter: 3
 
-   Row 1   
------------
-enter: 1
-enter: 2
-enter: 3
+#    Row 1
+# -----------
+# enter: 1
+# enter: 2
+# enter: 3
 
-   Row 2   
------------
-enter: 1
-enter: 2
-enter: 3
+#    Row 2
+# -----------
+# enter: 1
+# enter: 2
+# enter: 3
 
-  Square:  
------------
-1    2    3    
-1    2    3    
-1    2    3    
+#   Square:
+# -----------
+# 1    2    3
+# 1    2    3
+# 1    2    3
 
-This is not a Lo Shu Magic Square.
+# This is not a Lo Shu Magic Square.
 
-"""
+# ****************************************************************************************************

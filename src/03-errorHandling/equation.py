@@ -12,7 +12,7 @@ import random as r
 
 def get_randNums(RAND_RANGE):
     # * unpacks the tuple or list and passes each element as an argument
-    return r.randint(*RAND_RANGE), r.randint(*RAND_RANGE)  
+    return r.randint(*RAND_RANGE), r.randint(*RAND_RANGE)
 
 
 # ****************************************************************************************************
@@ -48,7 +48,9 @@ def get_input(num1, num2, MIN_SUM, MAX_SUM):
             guess = int(input("Enter sum of numbers: "))
 
             if (guess < MIN_SUM) or (guess > MAX_SUM):
-                raise ValueError(f"Invalid: Must be an integer between {MIN_SUM} and {MAX_SUM}")
+                raise ValueError(
+                    f"Invalid: Must be an integer between {MIN_SUM} and {MAX_SUM}"
+                )
 
             return guess
 
@@ -90,51 +92,50 @@ if __name__ == "__main__":
     main()
 
 # ****************************************************************************************************
-"""
 
-==================================================
-  253
-+ 824
-Enter sum of numbers: 500
+# ==================================================
+#   253
+# + 824
+# Enter sum of numbers: 500
 
-Incorrect... The correct answer is: 1077.
-Again? press Y/y to continue y
-==================================================
-  852
-+ 731
-Enter sum of numbers: 1583
+# Incorrect... The correct answer is: 1077.
+# Again? press Y/y to continue y
+# ==================================================
+#   852
+# + 731
+# Enter sum of numbers: 1583
 
-Correct answer - Good Work!
-Again? press Y/y to continue n 
-
-
-****************************************************************************************************
+# Correct answer - Good Work!
+# Again? press Y/y to continue n
 
 
-==================================================
-  186
-+ 856
-Enter sum of numbers: a
+# ****************************************************************************************************
 
-invalid literal for int() with base 10: 'a'
-==================================================
-  186
-+ 856
-Enter sum of numbers: -100
 
-Invalid: Must be an integer between 0 and 1998
-==================================================
-  186
-+ 856
-Enter sum of numbers: /
+# ==================================================
+#   186
+# + 856
+# Enter sum of numbers: a
 
-invalid literal for int() with base 10: '/'
-==================================================
-  186
-+ 856
-Enter sum of numbers: 1  
+# invalid literal for int() with base 10: 'a'
+# ==================================================
+#   186
+# + 856
+# Enter sum of numbers: -100
 
-Incorrect... The correct answer is: 1042.
-Again? press Y/y to continue n
+# Invalid: Must be an integer between 0 and 1998
+# ==================================================
+#   186
+# + 856
+# Enter sum of numbers: /
 
-"""
+# invalid literal for int() with base 10: '/'
+# ==================================================
+#   186
+# + 856
+# Enter sum of numbers: 1
+
+# Incorrect... The correct answer is: 1042.
+# Again? press Y/y to continue n
+
+# ****************************************************************************************************

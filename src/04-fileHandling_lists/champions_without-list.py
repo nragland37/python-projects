@@ -96,86 +96,85 @@ if __name__ == "__main__":
     main()
 
 # ****************************************************************************************************
-"""
 
-                      Menu                       
-==================================================
-1. Search a team
-2. Display team names
-3. Quit
-Enter your choice: 2
+#                       Menu                       
+# ==================================================
+# 1. Search a team
+# 2. Display team names
+# 3. Quit
+# Enter your choice: 2
 
-   World Series Champions between 1903 and 2009   
-==================================================
- 1 : Anaheim Angels
- 2 : Arizona Diamondbacks
- 3 : Atlanta Braves
- 4 : Baltimore Orioles
- 5 : Boston Americans
- 6 : Boston Braves
- 7 : Boston Red Sox
- 8 : Brooklyn Dodgers
- 9 : Chicago Cubs
-10 : Chicago White Sox
-11 : Cincinnati Reds
-12 : Cleveland Indians
-13 : Detroit Tigers
-14 : Florida Marlins
-15 : Kansas City Royals
-16 : Los Angeles Dodgers
-17 : Milwaukee Braves
-18 : Minnesota Twins
-19 : New York Giants
-20 : New York Mets
-21 : New York Yankees
-22 : Oakland Athletics
-23 : Philadelphia Athletics
-24 : Philadelphia Phillies
-25 : Pittsburgh Pirates
-26 : St. Louis Cardinals
-27 : Toronto Blue Jays
-28 : Washington Senators
+#    World Series Champions between 1903 and 2009   
+# ==================================================
+#  1 : Anaheim Angels
+#  2 : Arizona Diamondbacks
+#  3 : Atlanta Braves
+#  4 : Baltimore Orioles
+#  5 : Boston Americans
+#  6 : Boston Braves
+#  7 : Boston Red Sox
+#  8 : Brooklyn Dodgers
+#  9 : Chicago Cubs
+# 10 : Chicago White Sox
+# 11 : Cincinnati Reds
+# 12 : Cleveland Indians
+# 13 : Detroit Tigers
+# 14 : Florida Marlins
+# 15 : Kansas City Royals
+# 16 : Los Angeles Dodgers
+# 17 : Milwaukee Braves
+# 18 : Minnesota Twins
+# 19 : New York Giants
+# 20 : New York Mets
+# 21 : New York Yankees
+# 22 : Oakland Athletics
+# 23 : Philadelphia Athletics
+# 24 : Philadelphia Phillies
+# 25 : Pittsburgh Pirates
+# 26 : St. Louis Cardinals
+# 27 : Toronto Blue Jays
+# 28 : Washington Senators
 
-                       Menu                       
-==================================================
-1. Search a team
-2. Display team names
-3. Quit
-Enter your choice: 1
+#                        Menu                       
+# ==================================================
+# 1. Search a team
+# 2. Display team names
+# 3. Quit
+# Enter your choice: 1
 
-Enter the name of a team: St. Louis Cardinals
+# Enter the name of a team: St. Louis Cardinals
 
-The St. Louis Cardinals won the world series 10 times between 1903 and 2009.
+# The St. Louis Cardinals won the world series 10 times between 1903 and 2009.
 
-                       Menu                       
-==================================================
-1. Search a team
-2. Display team names
-3. Quit
-Enter your choice: 1
+#                        Menu                       
+# ==================================================
+# 1. Search a team
+# 2. Display team names
+# 3. Quit
+# Enter your choice: 1
 
-Enter the name of a team: ST. louis cArDiNaLS
+# Enter the name of a team: ST. louis cArDiNaLS
 
-The St. Louis Cardinals won the world series 10 times between 1903 and 2009.
+# The St. Louis Cardinals won the world series 10 times between 1903 and 2009.
 
-                       Menu                       
-==================================================
-1. Search a team
-2. Display team names
-3. Quit
-Enter your choice: 1
+#                        Menu                       
+# ==================================================
+# 1. Search a team
+# 2. Display team names
+# 3. Quit
+# Enter your choice: 1
 
-Enter the name of a team: Dataframe Pandas
+# Enter the name of a team: Dataframe Pandas
 
-The Dataframe Pandas never won the world series.
+# The Dataframe Pandas never won the world series.
 
-                       Menu                       
-==================================================
-1. Search a team
-2. Display team names
-3. Quit
-Enter your choice: 3
+#                        Menu                       
+# ==================================================
+# 1. Search a team
+# 2. Display team names
+# 3. Quit
+# Enter your choice: 3
 
-Goodbye!
+# Goodbye!
 
-"""
+# ****************************************************************************************************

@@ -141,230 +141,229 @@ if __name__ == "__main__":
     main()
 
 # ****************************************************************************************************
-"""
 
-             Menu             
-==============================
-1. View a team's info
-2. View all team's info
-3. Delete a team's info
-4. Change a team's info
-5. Quit
-Enter your choice: 1
-Enter a team's name: st. louis cardinals
+#              Menu
+# ==============================
+# 1. View a team's info
+# 2. View all team's info
+# 3. Delete a team's info
+# 4. Change a team's info
+# 5. Quit
+# Enter your choice: 1
+# Enter a team's name: st. louis cardinals
 
-St. Louis Cardinals:
-1926 1931 1934 1942 1944 1946 1964 1967
-1982 2006
+# St. Louis Cardinals:
+# 1926 1931 1934 1942 1944 1946 1964 1967
+# 1982 2006
 
-             Menu             
-==============================
-1. View a team's info
-2. View all team's info
-3. Delete a team's info
-4. Change a team's info
-5. Quit
-Enter your choice: 4
-Enter a team's name: st. louis cardinals
-Enter this team's new winning year(s): 
+#              Menu
+# ==============================
+# 1. View a team's info
+# 2. View all team's info
+# 3. Delete a team's info
+# 4. Change a team's info
+# 5. Quit
+# Enter your choice: 4
+# Enter a team's name: st. louis cardinals
+# Enter this team's new winning year(s):
 
-St. Louis Cardinals updated
+# St. Louis Cardinals updated
 
-             Menu             
-==============================
-1. View a team's info
-2. View all team's info
-3. Delete a team's info
-4. Change a team's info
-5. Quit
-Enter your choice: 1
-Enter a team's name: st. louis cardinals
+#              Menu
+# ==============================
+# 1. View a team's info
+# 2. View all team's info
+# 3. Delete a team's info
+# 4. Change a team's info
+# 5. Quit
+# Enter your choice: 1
+# Enter a team's name: st. louis cardinals
 
-St. Louis Cardinals:
-No wins
+# St. Louis Cardinals:
+# No wins
 
-             Menu             
-==============================
-1. View a team's info
-2. View all team's info
-3. Delete a team's info
-4. Change a team's info
-5. Quit
-Enter your choice: 4
-Enter a team's name: st. louis cardinals
-Enter this team's new winning year(s): 2013 1990 1945 2022
+#              Menu
+# ==============================
+# 1. View a team's info
+# 2. View all team's info
+# 3. Delete a team's info
+# 4. Change a team's info
+# 5. Quit
+# Enter your choice: 4
+# Enter a team's name: st. louis cardinals
+# Enter this team's new winning year(s): 2013 1990 1945 2022
 
-St. Louis Cardinals updated
+# St. Louis Cardinals updated
 
-             Menu             
-==============================
-1. View a team's info
-2. View all team's info
-3. Delete a team's info
-4. Change a team's info
-5. Quit
-Enter your choice: 1   
-Enter a team's name: st. louis cardinals
+#              Menu
+# ==============================
+# 1. View a team's info
+# 2. View all team's info
+# 3. Delete a team's info
+# 4. Change a team's info
+# 5. Quit
+# Enter your choice: 1
+# Enter a team's name: st. louis cardinals
 
-St. Louis Cardinals:
-1945 1990 2013 2022
+# St. Louis Cardinals:
+# 1945 1990 2013 2022
 
-             Menu             
-==============================
-1. View a team's info
-2. View all team's info
-3. Delete a team's info
-4. Change a team's info
-5. Quit
-Enter your choice: 5
-Goodbye!
+#              Menu
+# ==============================
+# 1. View a team's info
+# 2. View all team's info
+# 3. Delete a team's info
+# 4. Change a team's info
+# 5. Quit
+# Enter your choice: 5
+# Goodbye!
 
- *****************************************************************************************************
- 
-             Menu             
-==============================
-1. View a team's info
-2. View all team's info
-3. Delete a team's info
-4. Change a team's info
-5. Quit
-Enter your choice: 1
-Enter a team's name: St. Louis Cardinals
+#  *****************************************************************************************************
 
-St. Louis Cardinals:
-1926 1931 1934 1942 1944 1946 1964 1967
-1982 2006
+#              Menu
+# ==============================
+# 1. View a team's info
+# 2. View all team's info
+# 3. Delete a team's info
+# 4. Change a team's info
+# 5. Quit
+# Enter your choice: 1
+# Enter a team's name: St. Louis Cardinals
 
-             Menu             
-==============================
-1. View a team's info
-2. View all team's info
-3. Delete a team's info
-4. Change a team's info
-5. Quit
-Enter your choice: 2
+# St. Louis Cardinals:
+# 1926 1931 1934 1942 1944 1946 1964 1967
+# 1982 2006
 
-Boston Americans:
-1903
+#              Menu
+# ==============================
+# 1. View a team's info
+# 2. View all team's info
+# 3. Delete a team's info
+# 4. Change a team's info
+# 5. Quit
+# Enter your choice: 2
 
-New York Giants:
-1905 1921 1922 1933 1954
+# Boston Americans:
+# 1903
 
-Chicago White Sox:
-1906 1917 2005
+# New York Giants:
+# 1905 1921 1922 1933 1954
 
-Chicago Cubs:
-1907 1908
+# Chicago White Sox:
+# 1906 1917 2005
 
-Pittsburgh Pirates:
-1909 1925 1960 1971 1979
+# Chicago Cubs:
+# 1907 1908
 
-Philadelphia Athletics:
-1910 1911 1913 1929 1930
+# Pittsburgh Pirates:
+# 1909 1925 1960 1971 1979
 
-Boston Red Sox:
-1912 1915 1916 1918 2004 2007
+# Philadelphia Athletics:
+# 1910 1911 1913 1929 1930
 
-Boston Braves:
-1914
+# Boston Red Sox:
+# 1912 1915 1916 1918 2004 2007
 
-Cincinnati Reds:
-1919 1940 1975 1976 1990
+# Boston Braves:
+# 1914
 
-Cleveland Indians:
-1920 1948
+# Cincinnati Reds:
+# 1919 1940 1975 1976 1990
 
-New York Yankees:
-1923 1927 1928 1932 1936 1937 1938 1939
-1941 1943 1947 1949 1950 1951 1952 1953
-1956 1958 1961 1962 1977 1978 1996 1998
-1999 2000
+# Cleveland Indians:
+# 1920 1948
 
-Washington Senators:
-1924
+# New York Yankees:
+# 1923 1927 1928 1932 1936 1937 1938 1939
+# 1941 1943 1947 1949 1950 1951 1952 1953
+# 1956 1958 1961 1962 1977 1978 1996 1998
+# 1999 2000
 
-St. Louis Cardinals:
-1926 1931 1934 1942 1944 1946 1964 1967
-1982 2006
+# Washington Senators:
+# 1924
 
-Detroit Tigers:
-1935 1945 1968 1984
+# St. Louis Cardinals:
+# 1926 1931 1934 1942 1944 1946 1964 1967
+# 1982 2006
 
-Brooklyn Dodgers:
-1955
+# Detroit Tigers:
+# 1935 1945 1968 1984
 
-Milwaukee Braves:
-1957
+# Brooklyn Dodgers:
+# 1955
 
-Los Angeles Dodgers:
-1959 1963 1965 1981 1988
+# Milwaukee Braves:
+# 1957
 
-Baltimore Orioles:
-1966 1970 1983
+# Los Angeles Dodgers:
+# 1959 1963 1965 1981 1988
 
-New York Mets:
-1969 1986
+# Baltimore Orioles:
+# 1966 1970 1983
 
-Oakland Athletics:
-1972 1973 1974 1989
+# New York Mets:
+# 1969 1986
 
-Philadelphia Phillies:
-1980 2008
+# Oakland Athletics:
+# 1972 1973 1974 1989
 
-Kansas City Royals:
-1985
+# Philadelphia Phillies:
+# 1980 2008
 
-Minnesota Twins:
-1987 1991
+# Kansas City Royals:
+# 1985
 
-Toronto Blue Jays:
-1992 1993
+# Minnesota Twins:
+# 1987 1991
 
-Atlanta Braves:
-1995
+# Toronto Blue Jays:
+# 1992 1993
 
-Florida Marlins:
-1997 2003
+# Atlanta Braves:
+# 1995
 
-Arizona Diamondbacks:
-2001
+# Florida Marlins:
+# 1997 2003
 
-Anaheim Angels:
-2002
+# Arizona Diamondbacks:
+# 2001
 
-             Menu             
-==============================
-1. View a team's info
-2. View all team's info
-3. Delete a team's info
-4. Change a team's info
-5. Quit
-Enter your choice: 3
-Enter a team's name: St. Louis Cardinals
+# Anaheim Angels:
+# 2002
 
-St. Louis Cardinals deleted
+#              Menu
+# ==============================
+# 1. View a team's info
+# 2. View all team's info
+# 3. Delete a team's info
+# 4. Change a team's info
+# 5. Quit
+# Enter your choice: 3
+# Enter a team's name: St. Louis Cardinals
 
-             Menu             
-==============================
-1. View a team's info
-2. View all team's info
-3. Delete a team's info
-4. Change a team's info
-5. Quit
-Enter your choice: 4
-Enter a team's name: Florida Marlins 
-Enter this team's new winning year(s): 1995 2008
+# St. Louis Cardinals deleted
 
-Florida Marlins updated
+#              Menu
+# ==============================
+# 1. View a team's info
+# 2. View all team's info
+# 3. Delete a team's info
+# 4. Change a team's info
+# 5. Quit
+# Enter your choice: 4
+# Enter a team's name: Florida Marlins
+# Enter this team's new winning year(s): 1995 2008
 
-             Menu             
-==============================
-1. View a team's info
-2. View all team's info
-3. Delete a team's info
-4. Change a team's info
-5. Quit
-Enter your choice: 5
-Goodbye!
+# Florida Marlins updated
 
-"""
+#              Menu
+# ==============================
+# 1. View a team's info
+# 2. View all team's info
+# 3. Delete a team's info
+# 4. Change a team's info
+# 5. Quit
+# Enter your choice: 5
+# Goodbye!
+
+# ****************************************************************************************************

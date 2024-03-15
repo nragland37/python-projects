@@ -108,48 +108,47 @@ if __name__ == "__main__":
     main()
 
 # ****************************************************************************************************
-"""
 
-                    All Sales                     
+#                     All Sales
 
-Name      Phone     ID        Commission
---------------------------------------------------
-Jane      123-987   A905      8.70
-John      905-437   X337      9.50
-Joe       314-636   B522      10.70
-Jill      112-616   Y777      0.00
-Jack      897-909   Z123      101,010.10
---------------------------------------------------
-
-
-                  All Customers                   
-
-Name      Phone     Cust#     Mailing List
---------------------------------------------------
-Mary      909-457   C921      Yes
-Hairy     313-436   C123      No
-Mike      415-678   C100      No
-Ike       314-636   C200      Yes
-Candy     112-616   C300      No
-Moe       897-909   C607      Yes
-Curly     311-444   C800      No
-Larry     304-666   C900      No
-Obi-Wan   909-457   C921      Yes
-Anakin    313-436   C123      No
-Yoda      415-678   C100      No
-Luke      314-636   C200      Yes
---------------------------------------------------
+# Name      Phone     ID        Commission
+# --------------------------------------------------
+# Jane      123-987   A905      8.70
+# John      905-437   X337      9.50
+# Joe       314-636   B522      10.70
+# Jill      112-616   Y777      0.00
+# Jack      897-909   Z123      101,010.10
+# --------------------------------------------------
 
 
-          Sales Associates and Customers          
+#                   All Customers
 
-Sales               Customers
---------------------------------------------------
-Jane                Mary, Hairy, 
-John                Mike, Ike, Candy, 
-Joe                 Moe, Curly, Larry, 
-Jill                N/A
-Jack                Obi-Wan, Anakin, Yoda, Luke, 
---------------------------------------------------
+# Name      Phone     Cust#     Mailing List
+# --------------------------------------------------
+# Mary      909-457   C921      Yes
+# Hairy     313-436   C123      No
+# Mike      415-678   C100      No
+# Ike       314-636   C200      Yes
+# Candy     112-616   C300      No
+# Moe       897-909   C607      Yes
+# Curly     311-444   C800      No
+# Larry     304-666   C900      No
+# Obi-Wan   909-457   C921      Yes
+# Anakin    313-436   C123      No
+# Yoda      415-678   C100      No
+# Luke      314-636   C200      Yes
+# --------------------------------------------------
 
-"""
+
+#           Sales Associates and Customers
+
+# Sales               Customers
+# --------------------------------------------------
+# Jane                Mary, Hairy,
+# John                Mike, Ike, Candy,
+# Joe                 Moe, Curly, Larry,
+# Jill                N/A
+# Jack                Obi-Wan, Anakin, Yoda, Luke,
+# --------------------------------------------------
+
+# ****************************************************************************************************
