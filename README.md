@@ -9,7 +9,7 @@
 
 '''
 
-### [Source](/src)
+### [Programs](/src)
 * [Documents](src/docs/)
 
 | # | Project |
@@ -24,4 +24,26 @@
 | 8 | [Dictionaries](./src/08-dictionaries) | 
 | 9 | [Classes](./src/09-classes) |
 | 10 | [Serialization](./src/10-serialization) |
-| 11 | [Tkinter GUI Applications](./src/11-tkinterApps) |
+| 11 | [Tkinter GUI Apps](./src/11-tkinterApps) |
+
+<br>
+
+### [Notes](/notes)
+
+| # | Topics |
+|:---:|:---|
+| 1 | [Classes](./notes/classes) | 
+| 2 | [SQLite3 Database](./notes/database) | 
+| 3 | [Files](./notes/files) | 
+| 4 | [Jupyter Notebook](./notes/jupyterNotebook) |  
+| 5 | [Matplotlib](./notes/matplotlib) |  
+| 6 | [Tkinter GUI Apps](./notes/tkinter) |
+| 7 | [Turtle Graphics](./notes/turtle) |
+
+<br>
+
+### [Jupyter](/jupyterNotebooks)
+
+| # | Notebooks |
+|:---:|:---|
+| 1 | [Python Programming Notes](./jupyterNotebooks/python_notes) | 
