@@ -41,8 +41,8 @@ except ValueError:
 except Exception as e:
     print(e)
 # optional - runs if no exceptions are caught
-else:  
+else:
     print(total)
 # optional - always runs whether there is an exception or not
-finally:  
+finally:
     print("Done")

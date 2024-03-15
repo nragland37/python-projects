@@ -1,6 +1,6 @@
 class Pet:
     # constructor
-    def __init__(self, pet_type, name):  
+    def __init__(self, pet_type, name):
         self.__pet_type = pet_type
         self.__name = name
 
