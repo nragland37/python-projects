@@ -10,10 +10,7 @@
 
 
 def main():
-    # open the file for reading and close it automatically
-    with open("example.txt", "r") as file:
-        # read the entire file and split each line into a list
-        data = file.read().splitlines()
+    print("Hello, World!")
 
 
 # ****************************************************************************************************
@@ -23,6 +20,6 @@ if __name__ == "__main__":
 
 # ****************************************************************************************************
 
-# attach sample output here.
+# Hello, World!
 
 # ****************************************************************************************************
