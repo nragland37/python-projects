@@ -74,15 +74,15 @@ if __name__ == "__main__":
             break
 
 # ****************************************************************************************************
-#
-#   Enter the row length (in feet): 300
-#   Enter space used by an end-post assembly (in feet): 1.5
-#   Enter the distance between each vine (in feet): 2.2
-#   You have enough space for 135.0 vines.
-#
-#   Would you like to run the program again? (y/n): n
-#
-#   Goodbye!
-#
-#
-# ****************************************************************************************************
+'''
+
+  Enter the row length (in feet): 300
+  Enter space used by an end-post assembly (in feet): 1.5
+  Enter the distance between each vine (in feet): 2.2
+  You have enough space for 135.0 vines.
+
+  Would you like to run the program again? (y/n): n
+
+  Goodbye!
+
+'''

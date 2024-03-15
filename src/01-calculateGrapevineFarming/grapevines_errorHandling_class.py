@@ -72,19 +72,27 @@ class Vineyard:
 
 # ****************************************************************************************************
 
-if __name__ == "__main__":
+
+def main():
     vineyard = Vineyard()
     vineyard.run()
 
+
 # ****************************************************************************************************
-#
-#   Enter the row length (in feet): 300
-#   Enter space used by an end-post assembly (in feet): 1.5
-#   Enter the distance between each vine (in feet): 2.2
-#   You have enough space for 135.0 vines.
-#
-#   Would you like to run the program again? (y/n): n
-#
-#   Goodbye!
-#
+
+if __name__ == "__main__":
+    main()
+
 # ****************************************************************************************************
+"""
+
+  Enter the row length (in feet): 300
+  Enter space used by an end-post assembly (in feet): 1.5
+  Enter the distance between each vine (in feet): 2.2
+  You have enough space for 135.0 vines.
+
+  Would you like to run the program again? (y/n): n
+
+  Goodbye!
+  
+"""
