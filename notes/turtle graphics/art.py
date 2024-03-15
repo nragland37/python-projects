@@ -69,4 +69,5 @@ for count in range(NUM_CIRCLES):
     t3.right(DEGREES)
     t4.left(DEGREES)
 
-turtle.mainloop()  # keep window open
+# keep window open
+turtle.mainloop()

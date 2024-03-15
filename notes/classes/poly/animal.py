@@ -6,7 +6,8 @@ class Creature:
         return self.__creature_type
 
 
-class Mammal(Creature):  # Inherit from Creature (polymorphism
+# Inherit from Creature class (super class)
+class Mammal(Creature):
     def __init__(self, species):
         Creature.__init__(self, "Mammal")
         self.__species = species
@@ -20,15 +21,19 @@ class Mammal(Creature):  # Inherit from Creature (polymorphism
 
 class Dog(Mammal):
     def __init__(self):
-        Mammal.__init__(self, "Dog")  # Call super class constructor
+        # Call super class constructor
+        Mammal.__init__(self, "Dog")
 
-    def make_sound(self):  # Override super class method (polymorphism)
+    # Override super class method (polymorphism)
+    def make_sound(self):
         print("Woof! Woof!")
 
 
 class Cat(Mammal):
     def __init__(self):
-        Mammal.__init__(self, "Cat")  # Call super class constructor
+        # Call super class constructor
+        Mammal.__init__(self, "Cat")
 
-    def make_sound(self):  # Override super class method (polymorphism)
+    # Override super class method (polymorphism)
+    def make_sound(self):
         print("Meow")

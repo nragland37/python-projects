@@ -40,7 +40,9 @@ except ValueError:
     print("Non-numeric data found in the file.")
 except Exception as e:
     print(e)
-else:  # optional - runs if no exceptions are caught
+# optional - runs if no exceptions are caught
+else:  
     print(total)
-finally:  # optional - always runs whether there is an exception or not
+# optional - always runs whether there is an exception or not
+finally:  
     print("Done")

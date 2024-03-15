@@ -1,8 +1,9 @@
 from animal import Creature, Mammal, Dog, Cat
 
 
+# Check if obj is a Mammal
 def show_mammal_info(obj):
-    if isinstance(obj, Mammal):  # Check if obj is a Mammal
+    if isinstance(obj, Mammal):
         obj.make_sound()
         obj.show_species()
     else:
