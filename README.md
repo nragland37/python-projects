@@ -9,6 +9,25 @@ This is an introductory collection of Python projects, covering a wide range of 
 
 <br>
 
+## Using Anaconda & Jupyter
+Anaconda simplifies package management and deployment for Python projects, and includes Jupyter Notebook, Jupyter Lab and more.
+
+### Installation:
+- [Anaconda (Recommended)](https://www.anaconda.com/products/distribution)
+- [Jupyter](https://jupyter.org/install)
+
+### Run:
+To run Jupyter Notebook or Jupyter Lab, use one of the following:
+#### 1. Anaconda-Navigator:
+- GUI for managing environments and launching apps.
+#### 2. Command Line:
+```bash
+jupyter notebook
+```
+```bash
+jupyter lab
+```
+#
 '''
 
 ### [Programs](/src)
