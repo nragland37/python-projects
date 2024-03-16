@@ -4,9 +4,9 @@
 #       store sales associates and customers.
 #
 #       Other files required:
-# 		  1.    customer.py - defines the Customer class (child class of Person)
-# 		  2.    sales_associate.py - defines the SalesAssociate class (child class of Person)
-# 		  3.    person.py - defines the Person class (parent class of Customer and SalesAssociate)
+#         1.    customer.py - defines Customer class (child of Person)
+#         2.    sales_associate.py - defines SalesAssociate class (child of Person)
+#         3.    person.py - defines Person class (parent of Customer and SalesAssociate)
 #
 # ****************************************************************************************************
 

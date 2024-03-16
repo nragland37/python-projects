@@ -3,7 +3,7 @@
 #       This file defines the Customer class which is a child class of Person.
 #
 #       Other files required:
-# 		  1.    person.py - defines the Person class (parent class of Customer)
+#         1.    person.py - defines the Person class (parent class of Customer)
 #
 # ****************************************************************************************************
 

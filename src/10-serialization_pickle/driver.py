@@ -5,7 +5,7 @@
 #       dictionary of Employee objects.
 #
 #       Other files required:
-# 		  1.    employee.py - defines the Employee class
+#         1.    employee.py - defines the Employee class
 #         2.    employees.dat - stores the dictionary of Employee objects as a binary stream
 #                               (not strictly required, the commented out code in load_employees()
 #                               will create the file with the predefined employees if missing)

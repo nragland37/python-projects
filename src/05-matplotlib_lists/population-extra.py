@@ -3,6 +3,9 @@
 #       This program updates the population.py program to include a menu, more functions, and
 #       plots both a bar chart and a line graph.
 #
+#       Other files required:
+#         1.    USPopulation.txt - contains US population data from 1950 to 1990
+#
 # ****************************************************************************************************
 
 import matplotlib.pyplot as plt

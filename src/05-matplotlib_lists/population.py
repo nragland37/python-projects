@@ -4,7 +4,7 @@
 #       and plots a bar chart.
 #
 #       Other files required:
-# 		  1.    USPopulation.txt - contains US population data from 1950 to 1990
+#         1.    USPopulation.txt - contains US population data from 1950 to 1990
 #
 # ****************************************************************************************************
 

@@ -3,7 +3,7 @@
 #       This file defines the SalesAssociate class which is a child class of Person.
 #
 #       Other files required:
-# 		  1.    person.py - defines the Person class (parent class of SalesAssociate)
+#         1.    person.py - defines the Person class (parent class of SalesAssociate)
 #
 # ****************************************************************************************************
 

@@ -4,7 +4,7 @@
 #       and not just by name.
 #
 #       Other files required:
-# 		  1.    WorldSeriesWinners.txt - contains list of World Series winners between 1903 and 2009
+# 		  1.    WorldSeriesWinners.txt - contains world series winners (1903-2009)
 #
 # ****************************************************************************************************
 

@@ -4,6 +4,9 @@
 #       creates a dictionary of unique teams and their winning years. It prompts the user with a
 #       menu created using a dictionary for various operations on the dictionary of teams.
 #
+#       Other files required:
+# 		  1.    WorldSeriesWinners.txt - contains world series winners (1903-2009)
+#
 # ****************************************************************************************************
 
 
