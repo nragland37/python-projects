@@ -9,18 +9,18 @@ This is an introductory collection of Python projects, covering basics to interm
 
 <br>
 
-## Using Anaconda & Jupyter
-Anaconda is a package/environment manager that includes Jupyter Notebook, Jupyter Lab, and more.
+## Anaconda & Jupyter
+Anaconda is a package and environment manager that includes Jupyter Notebook and Jupyter Lab, among other tools.
 
 ### Installation:
 - [Anaconda (Recommended)](https://www.anaconda.com/products/distribution)
 
-or
+For only Jupyter:
 - [Jupyter](https://jupyter.org/install)
 
 ### Run:
 To run Jupyter Notebook or Jupyter Lab, use one of the following:
-#### 1. VS Code (Recommended)
+#### 1. VS Code
 - [Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
 #### 1. Anaconda-Navigator:
 - GUI for managing environments and launching apps (`included in Anaconda installation`). 
