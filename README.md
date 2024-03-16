@@ -5,12 +5,12 @@
 
 '''
 
-This is an introductory collection of Python projects, covering a wide range of basic to intermediate topics. The `jupyter` and `notes` folders include notebooks and topics filled with many helpful programs, examples, and explanations. All programs include detailed descriptions and sample outputs.
+This is an introductory collection of Python projects, covering basics to intermediate topics, and includes a `Jupyter notebook` with countless runnable programs with descriptions.
 
 <br>
 
 ## Using Anaconda & Jupyter
-Anaconda simplifies package management and deployment for Python projects, and includes Jupyter Notebook, Jupyter Lab and more.
+Anaconda includes Jupyter Notebook, Jupyter Lab, and more.
 
 ### Installation:
 - [Anaconda (Recommended)](https://www.anaconda.com/products/distribution)
