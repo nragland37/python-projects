@@ -28,6 +28,14 @@
 
 <br>
 
+### [Jupyter](/jupyterNotebooks)
+
+| # | Notebooks |
+|:---:|:---|
+| 1 | [Python Programming Notes](./jupyter/python_notes.ipynb) | 
+
+<br>
+
 ### [Notes](/notes)
 
 | # | Topics |
@@ -35,15 +43,6 @@
 | 1 | [Classes](./notes/classes) | 
 | 2 | [SQLite3 Database](./notes/database) | 
 | 3 | [Files](./notes/files) | 
-| 4 | [Jupyter Notebook](./notes/jupyterNotebook) |  
-| 5 | [Matplotlib](./notes/matplotlib) |  
-| 6 | [Tkinter GUI Apps](./notes/tkinter) |
-| 7 | [Turtle Graphics](./notes/turtle) |
-
-<br>
-
-### [Jupyter](/jupyterNotebooks)
-
-| # | Notebooks |
-|:---:|:---|
-| 1 | [Python Programming Notes](./jupyterNotebooks/python_notes.ipynb) | 
+| 4 | [Matplotlib](./notes/matplotlib) |  
+| 5 | [Tkinter GUI Apps](./notes/tkinter) |
+| 6 | [Turtle Graphics](./notes/turtle) |
