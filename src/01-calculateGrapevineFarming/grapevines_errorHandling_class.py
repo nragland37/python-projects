@@ -13,8 +13,6 @@ class Vineyard:
         self.amount = 0.0
         self.space = 0.0
 
-    # ************************************************************************************************
-
     def get_input(self, prompt):
         while True:
             try:
@@ -25,8 +23,6 @@ class Vineyard:
             except ValueError:
                 print("\nError: cannot be negative and must be a number.\n")
 
-    # ************************************************************************************************
-
     def get_vines(self):
         try:
             return (self.row - self.COEFFICIENT * self.amount) / self.space
@@ -34,16 +30,12 @@ class Vineyard:
             print("\nError: cannot divide by zero.\n")
             return None
 
-    # ************************************************************************************************
-
     def get_choice(self):
         while True:
             ch = input("\nWould you like to run the program again? (y/n): ").lower()
             if ch in ["y", "n"]:
                 return ch
             print('\nError: must be "y" or "n".')
-
-    # ************************************************************************************************
 
     def main(self):
         self.row = self.get_input("Enter the row length (in feet): ")
@@ -60,8 +52,6 @@ class Vineyard:
             else:
                 print("You do not have enough space for any vines.")
 
-    # ************************************************************************************************
-
     def run(self):
         while True:
             self.main()
@@ -70,15 +60,10 @@ class Vineyard:
                 break
 
 
-# ****************************************************************************************************
-
-
 def main():
     vineyard = Vineyard()
     vineyard.run()
 
-
-# ****************************************************************************************************
 
 if __name__ == "__main__":
     main()

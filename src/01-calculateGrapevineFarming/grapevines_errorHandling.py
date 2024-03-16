@@ -7,8 +7,6 @@
 
 COEFFICIENT = 2
 
-# ****************************************************************************************************
-
 
 def get_input(prompt):
     while True:
@@ -23,18 +21,12 @@ def get_input(prompt):
             print("\nError: cannot be negative and must be a number.\n")
 
 
-# ****************************************************************************************************
-
-
 def get_vines(row, amount, space):
     try:
         return (row - COEFFICIENT * amount) / space
     except ZeroDivisionError:
         print("\nError: cannot divide by zero.\n")
         return None
-
-
-# ****************************************************************************************************
 
 
 def get_choice():
@@ -44,9 +36,6 @@ def get_choice():
         if ch in ["y", "n"]:
             return ch
         print('\nError: must be "y" or "n".')
-
-
-# ****************************************************************************************************
 
 
 def main():
@@ -62,8 +51,6 @@ def main():
         else:
             print("You do not have enough space for any vines.")
 
-
-# ****************************************************************************************************
 
 if __name__ == "__main__":
     while True:

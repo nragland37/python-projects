@@ -9,8 +9,6 @@
 
 from person import Person
 
-# ****************************************************************************************************
-
 
 class SalesAssociate(Person):
     def __init__(self, name, phone, sales_id, commission):
@@ -18,27 +16,17 @@ class SalesAssociate(Person):
         self.__sales_id = sales_id
         self.__commission = commission
 
-    # ****************************************************************************************************
-
     def get_sales_id(self):
         return self.__sales_id
-
-    # ****************************************************************************************************
 
     def set_sales_id(self, sales_id):
         self.__sales_id = sales_id
 
-    # ****************************************************************************************************
-
     def get_commission(self):
         return self.__commission
 
-    # ****************************************************************************************************
-
     def set_commission(self, commission):
         self.__commission = commission
-
-    # ****************************************************************************************************
 
     def __str__(self):
         return (

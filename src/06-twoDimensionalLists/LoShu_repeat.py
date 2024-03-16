@@ -29,29 +29,16 @@ def getInput(square):
     return square
 
 
-
-# ****************************************************************************************************
-
-
 def checkLeftDiagnol(square):
     return sum([square[i][i] for i in range(len(square))]) == 15
-
-
-# ****************************************************************************************************
 
 
 def checkRightDiagnol(square):
     return sum([square[i][2 - i] for i in range(len(square))]) == 15
 
 
-# ****************************************************************************************************
-
-
 def checkRows(square):
     return all([sum(r) == 15 for r in square])
-
-
-# ****************************************************************************************************
 
 
 def checkCols(square):
@@ -61,9 +48,6 @@ def checkCols(square):
             for c in range(len(square[0]))
         ]
     )
-
-
-# ****************************************************************************************************
 
 
 def checkLoShu(square):
@@ -77,9 +61,6 @@ def checkLoShu(square):
     return all(checks)
 
 
-# ****************************************************************************************************
-
-
 def display(square):
     print(f'\n{"Square:":^11}\n{"-" * 11}')
 
@@ -87,9 +68,6 @@ def display(square):
         for c in r:
             print(f"{c:<5}", end="")
         print()
-
-
-# ****************************************************************************************************
 
 
 def main():
@@ -109,8 +87,6 @@ def main():
             print("Invalid input. Try again.")
             ch = input("\nWould you like to try again? (y/n): ")
 
-
-# ****************************************************************************************************
 
 if __name__ == "__main__":
     main()

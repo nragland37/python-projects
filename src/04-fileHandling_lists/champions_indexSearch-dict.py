@@ -20,9 +20,6 @@ def displayCount(team, teamsCount):
         print(f"\nThe {team} never won the World Series.")
 
 
-# ****************************************************************************************************
-
-
 # _ is a placeholder for the teams parameter that is not used in the function
 def displayTeams(_, teams):
     print(f'\n{"Teams":^30}\n{"=" * 30}')
@@ -32,24 +29,15 @@ def displayTeams(_, teams):
         print(f"{i:2} : {team}")
 
 
-# ****************************************************************************************************
-
-
 def searchTeamName(teamsCount, _):
     team = input("\nEnter the name of a team: ").strip().title()
     displayCount(team, teamsCount)
-
-
-# ****************************************************************************************************
 
 
 def searchTeamIndex(teamsCount, teams):
     index = int(input("\nEnter the index of the team: "))
     team = teams[index]
     displayCount(team, teamsCount)
-
-
-# ****************************************************************************************************
 
 
 def menu(teamsCount, teams):
@@ -79,9 +67,6 @@ def menu(teamsCount, teams):
             print(f"An error occurred: {e}")
 
 
-# ****************************************************************************************************
-
-
 def main():
     try:
         with open("WorldSeriesWinners.txt", "r") as file:
@@ -95,8 +80,6 @@ def main():
     except Exception as e:
         print(f"An error occurred: {e}")
 
-
-# ****************************************************************************************************
 
 if __name__ == "__main__":
     main()

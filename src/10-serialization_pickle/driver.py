@@ -15,11 +15,8 @@
 from employee import Employee
 import pickle
 
-# ****************************************************************************************************
 
 FILENAME = "employees.dat"
-
-# ****************************************************************************************************
 
 
 def load_employees():
@@ -45,9 +42,6 @@ def load_employees():
         print(f"\nError: {e}")
 
     return employee_dict
-
-
-# ****************************************************************************************************
 
 
 def get_user_choice(employee_dict):
@@ -82,9 +76,6 @@ def get_user_choice(employee_dict):
             print(f"\nError: {e}")
 
 
-# ****************************************************************************************************
-
-
 def look_up(employee_dict):
     success = True
 
@@ -104,9 +95,6 @@ def look_up(employee_dict):
             print(f"\nError: {ve}\n")
         except Exception as e:
             print(f"\nError: {e}\n")
-
-
-# ****************************************************************************************************
 
 
 def add(employee_dict):
@@ -131,9 +119,6 @@ def add(employee_dict):
             print(f"\nError: {ve}\n")
         except Exception as e:
             print(f"\nError: {e}\n")
-
-
-# ****************************************************************************************************
 
 
 def change(employee_dict):
@@ -161,9 +146,6 @@ def change(employee_dict):
             print(f"\nError: {e}\n")
 
 
-# ****************************************************************************************************
-
-
 def delete(employee_dict):
     success = True
 
@@ -184,18 +166,12 @@ def delete(employee_dict):
             print(f"\nError: {e}\n")
 
 
-# ****************************************************************************************************
-
-
 def display_all(employee_dict):
     print(f'\n{"Name":20}{"ID":20}{"Department":20}{"Job Title":20}')
     print(f'{"-" * 80}')
 
     for employee in employee_dict.values():
         print(employee)
-
-
-# ****************************************************************************************************
 
 
 def save_employees(employee_dict):
@@ -211,15 +187,10 @@ def save_employees(employee_dict):
         print(f"\nError: {e}")
 
 
-# ****************************************************************************************************
-
-
 def main():
     employee_dict = load_employees()
     get_user_choice(employee_dict)
 
-
-# ****************************************************************************************************
 
 if __name__ == "__main__":
     main()

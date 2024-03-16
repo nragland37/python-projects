@@ -8,8 +8,6 @@
 import tkinter as tk
 import tkinter.messagebox as tkmb
 
-# ****************************************************************************************************
-
 
 class TicketCalculatorGUI:
     def __init__(self):
@@ -74,8 +72,6 @@ class TicketCalculatorGUI:
 
         tk.mainloop()
 
-    # ************************************************************************************************
-
     def calculate_price(self):
         try:
             num_tickets = int(self.num_tickets_entry.get())
@@ -90,14 +86,9 @@ class TicketCalculatorGUI:
             tkmb.showerror(title="Error", message="Enter a positive round number")
 
 
-# ****************************************************************************************************
-
-
 def main():
     TicketCalculatorGUI()
 
-
-# ****************************************************************************************************
 
 if __name__ == "__main__":
     main()

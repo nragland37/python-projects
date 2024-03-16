@@ -7,8 +7,6 @@
 import tkinter as tk
 import tkinter.messagebox as tkmb
 
-# ****************************************************************************************************
-
 
 class CelsiusGUI:
     def __init__(self):
@@ -60,8 +58,6 @@ class CelsiusGUI:
 
         tk.mainloop()
 
-    # ****************************************************************************************************
-
     def convert_to_fahrenheit(self):
         try:
             celsius = float(self.celsius_entry.get())
@@ -71,8 +67,6 @@ class CelsiusGUI:
             self.fahrenheit_entry.insert(0, str(fahrenheit))
         except ValueError:
             tkmb.showerror(title="Error", message="Enter a number")
-
-    # ****************************************************************************************************
 
     def convert_to_celsius(self):
         try:
@@ -85,14 +79,9 @@ class CelsiusGUI:
             tkmb.showerror(title="Error", message="Enter a number")
 
 
-# ****************************************************************************************************
-
-
 def main():
     CelsiusGUI()
 
-
-# ****************************************************************************************************
 
 if __name__ == "__main__":
     main()

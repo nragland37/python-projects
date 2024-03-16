@@ -22,17 +22,11 @@ def get_dict(teams):
     return team_dict
 
 
-# ****************************************************************************************************
-
-
 def display_years(years):
     sorted_years = sorted(years)
 
     for i in range(0, len(sorted_years), 8):
         print(" ".join(sorted_years[i : i + 8]))
-
-
-# ****************************************************************************************************
 
 
 def display_team(team_dict):
@@ -50,16 +44,10 @@ def display_team(team_dict):
         print(f"\n{team_name} not found.")
 
 
-# ****************************************************************************************************
-
-
 def display(team_dict):
     for team, years in team_dict.items():
         print(f"\n{team}:")
         display_years(years)
-
-
-# ****************************************************************************************************
 
 
 def delete_team(team_dict):
@@ -72,9 +60,6 @@ def delete_team(team_dict):
         print(f"\n{team_name} not found")
 
 
-# ****************************************************************************************************
-
-
 def update_team(team_dict):
     team_name = input("Enter a team's name: ").strip().title()
     new_years = set(input("Enter this team's new winning year(s): ").strip().split())
@@ -84,9 +69,6 @@ def update_team(team_dict):
         print(f"\n{team_name} updated")
     else:
         print(f"\n{team_name} not found")
-
-
-# ****************************************************************************************************
 
 
 def menu(teams):
@@ -120,9 +102,6 @@ def menu(teams):
             print(f"\nError: {e}")
 
 
-# ****************************************************************************************************
-
-
 def main():
     try:
         with open("WorldSeriesWinners.txt", "r") as file:
@@ -135,90 +114,10 @@ def main():
         print(f"\nError: {e}")
 
 
-# ****************************************************************************************************
-
 if __name__ == "__main__":
     main()
 
 # ****************************************************************************************************
-
-#              Menu
-# ==============================
-# 1. View a team's info
-# 2. View all team's info
-# 3. Delete a team's info
-# 4. Change a team's info
-# 5. Quit
-# Enter your choice: 1
-# Enter a team's name: st. louis cardinals
-
-# St. Louis Cardinals:
-# 1926 1931 1934 1942 1944 1946 1964 1967
-# 1982 2006
-
-#              Menu
-# ==============================
-# 1. View a team's info
-# 2. View all team's info
-# 3. Delete a team's info
-# 4. Change a team's info
-# 5. Quit
-# Enter your choice: 4
-# Enter a team's name: st. louis cardinals
-# Enter this team's new winning year(s):
-
-# St. Louis Cardinals updated
-
-#              Menu
-# ==============================
-# 1. View a team's info
-# 2. View all team's info
-# 3. Delete a team's info
-# 4. Change a team's info
-# 5. Quit
-# Enter your choice: 1
-# Enter a team's name: st. louis cardinals
-
-# St. Louis Cardinals:
-# No wins
-
-#              Menu
-# ==============================
-# 1. View a team's info
-# 2. View all team's info
-# 3. Delete a team's info
-# 4. Change a team's info
-# 5. Quit
-# Enter your choice: 4
-# Enter a team's name: st. louis cardinals
-# Enter this team's new winning year(s): 2013 1990 1945 2022
-
-# St. Louis Cardinals updated
-
-#              Menu
-# ==============================
-# 1. View a team's info
-# 2. View all team's info
-# 3. Delete a team's info
-# 4. Change a team's info
-# 5. Quit
-# Enter your choice: 1
-# Enter a team's name: st. louis cardinals
-
-# St. Louis Cardinals:
-# 1945 1990 2013 2022
-
-#              Menu
-# ==============================
-# 1. View a team's info
-# 2. View all team's info
-# 3. Delete a team's info
-# 4. Change a team's info
-# 5. Quit
-# Enter your choice: 5
-# Goodbye!
-
-#  *****************************************************************************************************
 
 #              Menu
 # ==============================

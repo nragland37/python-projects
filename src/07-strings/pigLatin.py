@@ -13,9 +13,6 @@ def pig_latin(user_string):
     return " ".join(translate)
 
 
-# **************************************************************************************
-
-
 def convert(user_string):
     norm = user_string[0]
 
@@ -28,23 +25,15 @@ def convert(user_string):
     return norm
 
 
-# **************************************************************************************
-
-
 def main():
     user_string = input("Enter a string: ")
 
     norm_string = convert(user_string)
     pig_lantin_string = pig_latin(norm_string)
 
-    # norm_string += '.'
-    # pig_lantin_string += '.'
-
-    print(f"Normal string is: {norm_string}")
+    print(f"\nNormal string is: {norm_string}")
     print(f"Pig Latin is: {pig_lantin_string}")
 
-
-# **************************************************************************************
 
 if __name__ == "__main__":
     main()
@@ -52,20 +41,15 @@ if __name__ == "__main__":
 # ****************************************************************************************************
 
 # Enter a string: StopAndSmellTheRoses
+
 # Normal string is: Stop and smell the roses
 # Pig Latin is: TOPSAY NDAAY MELLSAY HETAY OSESRAY
 
 # *****************************************************************************************************
 
 # Enter a string: ISleptMostOfTheNight
+
 # Normal string is: I slept most of the night
 # Pig Latin is: IAY LEPTSAY OSTMAY FOAY HETAY IGHTNAY
-
-# *****************************************************************************************************
-# -- ADD PERIOD TO END OF STRING (COMMENTED OUT IN MAIN) --
-
-# Enter a string: StopAndSmellTheRoses
-# Normal string is: Stop and smell the roses.
-# Pig Latin is: TOPSAY NDAAY MELLSAY HETAY OSESRAY.
 
 # *****************************************************************************************************

@@ -13,8 +13,6 @@
 from customer import Customer
 from sales_associate import SalesAssociate
 
-# ****************************************************************************************************
-
 
 def display_sales(associates_dict):
     print(f'\n\n{"All Sales":^50}')
@@ -26,9 +24,6 @@ def display_sales(associates_dict):
     print(f'{"-" * 50}')
 
 
-# ****************************************************************************************************
-
-
 def display_customers(customers_dict):
     print(f'\n\n{"All Customers":^50}')
     print(f'\n{"Name":10}{"Phone":10}{"Cust#":10}{"Mailing List"}')
@@ -38,9 +33,6 @@ def display_customers(customers_dict):
         for customer in customers_list:
             print(customer)
     print(f'{"-" * 50}')
-
-
-# ****************************************************************************************************
 
 
 def display_sales_customers(associates_dict, customers_dict):
@@ -60,9 +52,6 @@ def display_sales_customers(associates_dict, customers_dict):
         else:
             print(f"{v.get_name():20}{'N/A'}")
     print(f'{"-" * 50}')
-
-
-# ****************************************************************************************************
 
 
 def main():
@@ -101,8 +90,6 @@ def main():
     display_customers(customers_dict)
     display_sales_customers(associates_dict, customers_dict)
 
-
-# ****************************************************************************************************
 
 if __name__ == "__main__":
     main()

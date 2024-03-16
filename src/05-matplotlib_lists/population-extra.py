@@ -7,15 +7,10 @@
 
 import matplotlib.pyplot as plt
 
-# ****************************************************************************************************
-
 
 def print_list(nums):
     for i in range(0, len(nums), 10):
         print(nums[i : i + 10])
-
-
-# ****************************************************************************************************
 
 
 def calc_difference(population_list):
@@ -26,28 +21,16 @@ def calc_difference(population_list):
     return change_list
 
 
-# ****************************************************************************************************
-
-
 def get_average(population_list):
     return sum(population_list) / len(population_list)
-
-
-# ****************************************************************************************************
 
 
 def get_greatest_increase(change_list):
     return max(change_list)
 
 
-# ****************************************************************************************************
-
-
 def get_smallest_increase(change_list):
     return min(change_list)
-
-
-# ****************************************************************************************************
 
 
 def plot_bar(population_list, start_year, end_year):
@@ -59,9 +42,6 @@ def plot_bar(population_list, start_year, end_year):
     plt.show()
 
 
-# ****************************************************************************************************
-
-
 def plot_line(population_list, start_year, end_year):
     years = list(range(start_year, start_year + len(population_list)))
     plt.plot(years, population_list, "r--")
@@ -71,23 +51,14 @@ def plot_line(population_list, start_year, end_year):
     plt.show()
 
 
-# ****************************************************************************************************
-
-
 def sort_ascending(change_list):
     asc_list = sorted(change_list)
     print_list(asc_list)
 
 
-# ****************************************************************************************************
-
-
 def sort_descending(change_list):
     desc_list = sorted(change_list, reverse=True)
     print_list(desc_list)
-
-
-# ****************************************************************************************************
 
 
 def search_pop(population_list):
@@ -97,9 +68,6 @@ def search_pop(population_list):
         print(f"\n{populate} found!")
     else:
         print(f"\n{populate} not found!")
-
-
-# ****************************************************************************************************
 
 
 def remove_pop(population_list, start_year, end_year):
@@ -123,9 +91,6 @@ def remove_pop(population_list, start_year, end_year):
         print("\nError: Year should be between either 1776-1950 and 1990-2023.")
 
     return start_year, end_year
-
-
-# ****************************************************************************************************
 
 
 def add_pop(population_list, start_year, end_year):
@@ -159,16 +124,10 @@ def add_pop(population_list, start_year, end_year):
     return start_year, end_year
 
 
-# ****************************************************************************************************
-
-
 def display_populations(population_list):
     print("\nPopulation List:")
     for year, pop in enumerate(population_list, 1950):
         print(f"{year}: {pop * 1000:,.0f}")
-
-
-# ****************************************************************************************************
 
 
 def menu(population_list):
@@ -242,9 +201,6 @@ def menu(population_list):
             print(f"\nAn error occurred: {e}")
 
 
-# ****************************************************************************************************
-
-
 def main():
     try:
         with open("USPopulation.txt", "r") as file:
@@ -258,8 +214,6 @@ def main():
     except Exception:
         print("An error occurred.")
 
-
-# ****************************************************************************************************
 
 if __name__ == "__main__":
     main()

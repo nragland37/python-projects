@@ -7,22 +7,14 @@
 
 import random as r
 
-# ****************************************************************************************************
-
 
 def get_randNums(RAND_RANGE):
     # * unpacks the tuple or list and passes each element as an argument
     return r.randint(*RAND_RANGE), r.randint(*RAND_RANGE)
 
 
-# ****************************************************************************************************
-
-
 def get_sum(num1, num2):
     return num1 + num2
-
-
-# ****************************************************************************************************
 
 
 def get_choice():
@@ -35,9 +27,6 @@ def get_choice():
         print("\nInvalid: Must be Y/y or N/n")
 
     return ch
-
-
-# ****************************************************************************************************
 
 
 def get_input(num1, num2, MIN_SUM, MAX_SUM):
@@ -58,17 +47,11 @@ def get_input(num1, num2, MIN_SUM, MAX_SUM):
             print(f"\n{e}")
 
 
-# ****************************************************************************************************
-
-
 def display_result(guess, total):
     if guess == total:
         print("\nCorrect answer - Good Work!")
     else:
         print(f"\nIncorrect... The correct answer is: {total}.")
-
-
-# ****************************************************************************************************
 
 
 def main():
@@ -85,8 +68,6 @@ def main():
         if get_choice() == "n":
             break
 
-
-# ****************************************************************************************************
 
 if __name__ == "__main__":
     main()

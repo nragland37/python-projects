@@ -9,8 +9,6 @@
 
 from person import Person
 
-# ****************************************************************************************************
-
 
 class Customer(Person):
     def __init__(self, name, phone, customer_number, mailing_list):
@@ -18,27 +16,17 @@ class Customer(Person):
         self.__customer_number = customer_number
         self.__mailing_list = mailing_list
 
-    # ************************************************************************************************
-
     def get_customer_number(self):
         return self.__customer_number
-
-    # ************************************************************************************************
 
     def set_customer_number(self, customer_number):
         self.__customer_number = customer_number
 
-    # ************************************************************************************************
-
     def get_mailing_list(self):
         return self.__mailing_list
 
-    # ************************************************************************************************
-
     def set_mailing_list(self, mailing_list):
         self.__mailing_list = mailing_list
-
-    # ************************************************************************************************
 
     def __str__(self):
         return (

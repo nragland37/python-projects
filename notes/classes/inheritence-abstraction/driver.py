@@ -1,8 +1,8 @@
-from vehicles import Car, Truck
-
 # Notice, Automobile is not imported because it is not meant to be instantiated
 # it is meant to be inherited from and used as a base/abstract class
 # This is an example of data abstraction (hiding the details of the implementation)
+
+from vehicles import Car, Truck
 
 
 def main():

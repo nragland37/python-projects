@@ -16,9 +16,6 @@ def displayTeams(teams):
         print(f"{i:2} : {team}")
 
 
-# ****************************************************************************************************
-
-
 def displayCount(team, teamsCount):
     count = teamsCount.count(team)
 
@@ -26,9 +23,6 @@ def displayCount(team, teamsCount):
         print(f"\nThe {team} won the World Series {count} times between 1903 and 2009.")
     else:
         print(f"\nThe {team} never won the World Series.")
-
-
-# ****************************************************************************************************
 
 
 def processMenu(teamsCount, teams):
@@ -63,9 +57,6 @@ def processMenu(teamsCount, teams):
             print(f"An error occurred: {e}")
 
 
-# ****************************************************************************************************
-
-
 def main():
     try:
         with open("WorldSeriesWinners.txt", "r") as file:
@@ -78,8 +69,6 @@ def main():
     except Exception as e:
         print(f"An error occurred: {e}")
 
-
-# ****************************************************************************************************
 
 if __name__ == "__main__":
     main()

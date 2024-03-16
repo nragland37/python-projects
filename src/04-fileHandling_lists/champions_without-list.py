@@ -27,9 +27,6 @@ def searchTeam(teams, team_name):
         print("An error occurred: ", e)
 
 
-# ****************************************************************************************************
-
-
 def display(teams):
     try:
         year = 1903
@@ -48,9 +45,6 @@ def display(teams):
         print()
     except Exception as e:
         print("An error occurred: ", e)
-
-
-# ****************************************************************************************************
 
 
 def menu(teams):
@@ -79,9 +73,6 @@ def menu(teams):
             print("=" * 60)
 
 
-# ****************************************************************************************************
-
-
 def main():
     try:
         with open("WorldSeriesWinners.txt", "r") as teams:
@@ -89,8 +80,6 @@ def main():
     except FileNotFoundError:
         print("File could not be found.")
 
-
-# ****************************************************************************************************
 
 if __name__ == "__main__":
     main()
