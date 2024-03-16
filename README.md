@@ -23,7 +23,7 @@
 | 7 | [Strings](./src/07-strings) |
 | 8 | [Dictionaries](./src/08-dictionaries) | 
 | 9 | [Classes](./src/09-classes) |
-| 10 | [Serialization](./src/10-serialization) |
+| 10 | [Serialization](./src/10-serialization_pickle) |
 | 11 | [Tkinter GUI Apps](./src/11-tkinterApps) |
 
 <br>
@@ -46,4 +46,4 @@
 
 | # | Notebooks |
 |:---:|:---|
-| 1 | [Python Programming Notes](./jupyterNotebooks/python_notes) | 
+| 1 | [Python Programming Notes](./jupyterNotebooks/python_notes.ipynb) | 
