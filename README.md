@@ -5,7 +5,7 @@
 
 '''
 
-This is an introductory collection of Python projects, covering basics to intermediate topics, and includes a `Jupyter notebook` with countless runnable programs with descriptions.
+This is an introductory collection of Python projects, covering basics to intermediate topics, including `Jupyter notebooks` with countless runnable programs and descriptions.
 
 <br>
 
