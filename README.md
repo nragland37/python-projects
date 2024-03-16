@@ -28,7 +28,7 @@
 
 <br>
 
-### [Jupyter](/jupyterNotebooks)
+### [Jupyter](/jupyter)
 
 | # | Notebooks |
 |:---:|:---|
