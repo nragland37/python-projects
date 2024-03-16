@@ -34,7 +34,7 @@ jupyter lab
 #
 '''
 
-### [Programs](/src)
+### [Projects](/src)
 * [Documents](src/docs/)
 
 | # | Project |
