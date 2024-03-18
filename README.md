@@ -40,17 +40,18 @@ jupyter lab
 
 | # | Project |
 |:---:|:---|
-| 1 | [Calculate Grapevine Farming](./src/01-calculateGrapevineFarming) | 
-| 2 | [Calculate Population Growth](./src/02-calculatePopulationGrowth) | 
-| 3 | [Error Handling](./src/03-errorHandling) | 
-| 4 | [File Handling & Lists](./src/04-fileHandling_lists) |  
-| 5 | [Matplotlib & Lists](./src/05-matplotlib_lists) |  
-| 6 | [Two Dimensional Lists](./src/06-twoDimensionalLists) |
-| 7 | [Strings](./src/07-strings) |
-| 8 | [Dictionaries](./src/08-dictionaries) | 
-| 9 | [Classes](./src/09-classes) |
-| 10 | [Serialization](./src/10-serialization_pickle) |
-| 11 | [Tkinter GUI Apps](./src/11-tkinterApps) |
+| 1 | [Grapevine Farming Calculator](./src/01-grapevineFarmingCalculator) | 
+| 2 | [Population Growth Calculator](./src/02-populationGrowthCalculator) | 
+| 3 | [Math Quiz](./src/03-mathQuiz) | 
+| 4 | [World Series Winners Tracker](./src/04-worldSeriesWinnersTracker) |  
+| 5 | [US Population Trends Analyzer](./src/05-USPopulationTrendsAnalyzer) |  
+| 6 | [LoShu Magic Square Validator](./src/06-loShuMagicSquareValidator) |
+| 7 | [Camel Case To Pig Latin Converter](./src/07-camelCaseToPigLatinConverter) |
+| 8 | [World Series Winners Tracker (Continued)](./src/08-updated_worldSeriesWinnersTracker) | 
+| 9 | [Retail Management System](./src/09-retailManagementSystem) |
+| 10 | [Serialized Employee Management System](./src/10-serializedEmployeeManagementSystem) |
+| 11 | [Temperature Converter App](./src/11-temperatureConverterApp) |
+| 12 | [Ticket Calculator App](./src/12-ticketCalculatorApp) |
 
 <br>
 
