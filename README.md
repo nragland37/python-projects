@@ -66,3 +66,11 @@ Anaconda is a package and environment manager that includes Jupyter Notebook and
 | 4 | [Matplotlib](./notes/matplotlib) |  
 | 5 | [Tkinter GUI Apps](./notes/tkinter) |
 | 6 | [Turtle Graphics](./notes/turtle) |
+
+### Running Tests
+
+A basic test suite is included to verify some of the sample code. To run the tests, execute:
+
+```bash
+pytest -q
+```
